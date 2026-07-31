@@ -2,6 +2,8 @@ docs/Public Policies/
 data/chunks.json
 data/embeddings-*.bak.bin
 scratch-test/
+__pycache__/
+*.pyc
 
 # dependencies
 /node_modules
