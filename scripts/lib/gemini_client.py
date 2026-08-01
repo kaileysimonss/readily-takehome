@@ -30,7 +30,7 @@ def embed_batch(api_key, texts, dim=768, max_retries=5):
     }
 
     for attempt in range(1, max_retries + 1):
-        res = requests.post(url, json=body)
+        res = requests.post(url, json=body, timeout=90)
         if res.ok:
             data = res.json()
             return [normalize(e["values"]) for e in data["embeddings"]]
@@ -104,7 +104,7 @@ def extract_obligations(api_key, page_tagged_text):
         },
     }
 
-    res = requests.post(url, json=body)
+    res = requests.post(url, json=body, timeout=90)
     if not res.ok:
         raise RuntimeError(f"Gemini extraction failed ({res.status_code}): {res.text}")
 
@@ -112,3 +112,78 @@ def extract_obligations(api_key, page_tagged_text):
     text = data["candidates"][0]["content"]["parts"][0]["text"]
     parsed = json.loads(text)
     return parsed.get("obligations", [])
+
+
+JUDGE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "verdict": {
+            "type": "string",
+            "enum": ["supports", "partial", "contradicts", "gap"],
+            "description": (
+                "'supports' if a candidate EXPLICITLY and directly states the requirement "
+                "(paraphrasing/different terminology is fine, but the requirement itself must "
+                "be directly stated, not inferred through multi-step reasoning). "
+                "'partial' if a candidate is relevant and suggests the requirement may be met, "
+                "but only via indirect inference, incomplete coverage, or reasoning the "
+                "candidate text doesn't spell out itself - needs human verification. "
+                "'contradicts' if a candidate asserts something that conflicts with the "
+                "obligation (different timeframe, opposite requirement, narrower/broader scope). "
+                "'gap' if no candidate addresses the obligation at all, even indirectly."
+            ),
+        },
+        "matchedChunkId": {
+            "type": "string",
+            "description": "The chunkId of the P&P excerpt driving the verdict. Empty string if verdict is 'gap'.",
+        },
+        "explanation": {
+            "type": "string",
+            "description": "One or two sentences explaining the verdict, referencing the specific language that drove the decision.",
+        },
+    },
+    "required": ["verdict", "matchedChunkId", "explanation"],
+}
+
+JUDGE_PROMPT = """You are helping a Medi-Cal managed care plan's compliance analyst determine whether the plan's existing Policy & Procedure (P&P) documents already satisfy a specific regulatory obligation from a DHCS Policy Guide. Her own words: "I'd rather take three days than be fast and wrong" - findings from being wrong go to the state and her board. Be conservative accordingly.
+
+You will be given:
+1. An OBLIGATION extracted from the DHCS Policy Guide.
+2. A list of CANDIDATE excerpts from the plan's own P&P documents (each with a chunkId, document code, section, and text), retrieved because they are semantically similar to the obligation.
+
+Your job: read the candidates carefully and choose one of four verdicts:
+
+- "supports": a candidate EXPLICITLY and directly states the same requirement as the obligation. Different terminology or phrasing is fine (e.g. "post-service review" may be the same thing as "retrospective request") - what matters is that the requirement itself is directly stated in the P&P, not something a reader has to infer or reason their way to. If you found yourself building a multi-step logical argument for why a candidate implies compliance, that is NOT "supports" - see "partial" below.
+
+- "partial": a candidate is genuinely relevant and suggests the obligation may be met, but only through indirect inference (e.g. "this policy implies X because it says Y, and Y logically rules out not-X") or incomplete coverage (addresses part of the obligation but not all of it). This should be flagged for a human to verify, not treated as proven compliance - a DHCS reviewer typically wants an explicit statement, not an inferred argument.
+
+- "contradicts": a candidate addresses the same topic but conflicts with the obligation - e.g. a different timeframe, an opposite requirement ("may" vs "may not"), or a narrower/broader scope than the obligation requires. This is critical to catch: two passages can look nearly identical on the surface (same topic, same vocabulary, even high semantic similarity) while asserting opposite requirements, so read for actual meaning, not topical overlap.
+
+- "gap": no candidate addresses the obligation, even indirectly. Being topically related is not enough - the candidate must actually bear on the specific requirement.
+
+When genuinely torn between two verdicts, prefer the more conservative one (partial over supports, gap over partial) - a compliance analyst would rather manually double-check a flagged item than have a real gap or inference silently presented as proven compliance."""
+
+
+def judge_obligation(api_key, obligation_text, candidates):
+    """candidates: list of {"chunkId", "doc", "section", "text"}."""
+    candidates_text = "\n\n".join(
+        f"[{c['chunkId']}] ({c['doc']} {c['section']})\n{c['text']}" for c in candidates
+    )
+    prompt = f"{JUDGE_PROMPT}\n\nOBLIGATION:\n{obligation_text}\n\nCANDIDATES:\n{candidates_text}"
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{EXTRACT_MODEL}:generateContent?key={api_key}"
+    body = {
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": JUDGE_SCHEMA,
+            "temperature": 0,
+        },
+    }
+
+    res = requests.post(url, json=body, timeout=90)
+    if not res.ok:
+        raise RuntimeError(f"Gemini judgment failed ({res.status_code}): {res.text}")
+
+    data = res.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"]
+    return json.loads(text)
