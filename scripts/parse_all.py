@@ -7,7 +7,7 @@ from lib.chunker import chunk_document
 
 POLICY_ROOT = os.path.join(os.path.dirname(__file__), "..", "docs", "Public Policies")
 CATEGORY_DIRS = ["AA", "CMC", "DD", "EE", "FF", "GA", "GG", "HH", "MA", "PA"]
-OUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "chunks.json")
+OUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "plan_policies", "chunks.json")
 
 MAX_CHUNK_CHARS = 3000
 

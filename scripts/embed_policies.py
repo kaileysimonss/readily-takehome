@@ -6,9 +6,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 from lib.gemini_client import embed_batch
 
-CHUNKS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "chunks.json")
-META_OUT = os.path.join(os.path.dirname(__file__), "..", "data", "chunks-meta.json")
-VECS_OUT = os.path.join(os.path.dirname(__file__), "..", "data", "embeddings.bin")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "plan_policies")
+CHUNKS_FILE = os.path.join(DATA_DIR, "chunks.json")
+META_OUT = os.path.join(DATA_DIR, "chunks-meta.json")
+VECS_OUT = os.path.join(DATA_DIR, "embeddings.bin")
 
 DIM = 768
 BATCH_SIZE = 20

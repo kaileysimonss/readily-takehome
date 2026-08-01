@@ -1,6 +1,7 @@
 docs/Public Policies/
-data/chunks.json
-data/embeddings-*.bak.bin
+data/plan_policies/chunks.json
+data/ecm_guide/obligations.json
+data/*/embeddings-*.bak.bin
 scratch-test/
 __pycache__/
 *.pyc

@@ -9,7 +9,7 @@ from lib.gemini_client import extract_obligations
 from lib.verify import quote_verified
 
 FILE = os.path.join(os.path.dirname(__file__), "..", "docs", "Public Policies", "ECM Policy Guidelines.pdf")
-OUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "obligations.json")
+OUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "ecm_guide", "obligations.json")
 DOC = "ECM Policy Guidelines"
 DOC_TITLE = "CalAIM Enhanced Care Management (ECM) Policy Guide"
 CONCURRENCY = 5
