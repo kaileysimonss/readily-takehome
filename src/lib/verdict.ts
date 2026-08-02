@@ -1,4 +1,6 @@
-export type Verdict = "supports" | "partial" | "contradicts" | "gap" | "error";
+import type { Verdict } from "./data";
+
+export type { Verdict };
 
 export const VERDICT_CONFIG: Record<
   Verdict,

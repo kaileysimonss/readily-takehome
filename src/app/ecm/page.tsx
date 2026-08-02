@@ -1,7 +1,15 @@
-import { getMatches } from "@/lib/data";
-import EcmWorkspace from "./EcmWorkspace";
+import { getEcmMatches } from "@/lib/data";
+import MatchWorkspace from "@/components/MatchWorkspace";
 
 export default function EcmPage() {
-  const matches = getMatches();
-  return <EcmWorkspace matches={matches} />;
+  const matches = getEcmMatches();
+  return (
+    <MatchWorkspace
+      items={matches}
+      title="P&P vs. ECM Policy Guide"
+      unitLabelSingular="obligation"
+      unitLabelPlural="obligations"
+      sourceLabel="the ECM Policy Guide"
+    />
+  );
 }

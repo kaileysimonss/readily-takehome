@@ -1,20 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import type { Match } from "@/lib/data";
-import { VERDICT_CONFIG, Verdict } from "./verdict";
+import type { MatchItem } from "@/lib/data";
+import { VERDICT_CONFIG, Verdict } from "@/lib/verdict";
 
 const VISIBLE_CANDIDATES = 5;
 
-export default function ObligationRow({
-  match,
+export default function MatchRow({
+  item,
   isExpanded,
   onToggle,
   onSelectCandidate,
   selectedChunkId,
   loadingChunkId,
 }: {
-  match: Match;
+  item: MatchItem;
   isExpanded: boolean;
   onToggle: () => void;
   onSelectCandidate: (chunkId: string) => void;
@@ -22,8 +22,8 @@ export default function ObligationRow({
   loadingChunkId: string | null;
 }) {
   const [showAll, setShowAll] = useState(false);
-  const verdict = VERDICT_CONFIG[match.verdict as Verdict] ?? VERDICT_CONFIG.error;
-  const visible = showAll ? match.candidates : match.candidates.slice(0, VISIBLE_CANDIDATES);
+  const verdict = VERDICT_CONFIG[item.verdict as Verdict] ?? VERDICT_CONFIG.error;
+  const visible = showAll ? item.candidates : item.candidates.slice(0, VISIBLE_CANDIDATES);
 
   return (
     <div className="border-b border-zinc-100">
@@ -35,7 +35,15 @@ export default function ObligationRow({
           className={`mt-1.5 inline-block h-2 w-2 shrink-0 rounded-full ${verdict.dot}`}
           aria-hidden
         />
-        <span className="flex-1 text-sm text-zinc-800">{match.obligation}</span>
+        <span className="flex-1 text-sm text-zinc-800">{item.statement}</span>
+        {item.citationVerified === false && (
+          <span
+            className="mt-0.5 shrink-0 text-amber-500"
+            title="This citation could not be automatically verified - check manually before trusting it."
+          >
+            ⚠
+          </span>
+        )}
         <span
           className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ring-1 ring-inset ${verdict.badge}`}
         >
@@ -47,15 +55,22 @@ export default function ObligationRow({
         <div className="bg-zinc-50 px-4 pb-4 pl-9">
           <p className="mb-3 text-xs text-zinc-500">
             <span className="font-medium text-zinc-600">Why: </span>
-            {match.explanation}
+            {item.explanation}
           </p>
 
+          {item.citationVerified === false && (
+            <p className="mb-3 rounded-md bg-amber-50 px-2.5 py-1.5 text-xs text-amber-700">
+              The cited claim below could not be automatically verified as one of the
+              excerpts actually reviewed - double-check it manually before relying on it.
+            </p>
+          )}
+
           <p className="mb-1.5 text-xs font-medium uppercase tracking-wide text-zinc-400">
-            Matched claims checked ({match.candidates.length})
+            Matched claims checked ({item.candidates.length})
           </p>
           <ul className="space-y-1">
             {visible.map((c) => {
-              const isMatch = c.chunkId === match.matchedChunkId;
+              const isMatch = c.chunkId === item.matchedChunkId;
               const isSelected = c.chunkId === selectedChunkId;
               const isLoading = c.chunkId === loadingChunkId;
               return (
@@ -91,12 +106,12 @@ export default function ObligationRow({
             })}
           </ul>
 
-          {match.candidates.length > VISIBLE_CANDIDATES && (
+          {item.candidates.length > VISIBLE_CANDIDATES && (
             <button
               onClick={() => setShowAll((s) => !s)}
               className="mt-2 text-xs font-medium text-zinc-500 hover:text-zinc-800"
             >
-              {showAll ? "Show fewer" : `Show ${match.candidates.length - VISIBLE_CANDIDATES} more`}
+              {showAll ? "Show fewer" : `Show ${item.candidates.length - VISIBLE_CANDIDATES} more`}
             </button>
           )}
         </div>

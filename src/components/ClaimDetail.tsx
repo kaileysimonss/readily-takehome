@@ -12,9 +12,11 @@ export interface SelectedClaim {
 export default function ClaimDetail({
   claim,
   onBack,
+  backLabel,
 }: {
   claim: SelectedClaim;
   onBack: () => void;
+  backLabel: string;
 }) {
   return (
     <div className="flex h-full flex-col bg-white">
@@ -23,7 +25,7 @@ export default function ClaimDetail({
           onClick={onBack}
           className="mb-2 text-xs font-medium text-zinc-400 hover:text-zinc-700"
         >
-          ← Back to obligation
+          {`← Back to ${backLabel}`}
         </button>
         <p className="text-xs font-medium uppercase tracking-wide text-zinc-400">
           {claim.doc} · Section {claim.section} · Page {claim.page}

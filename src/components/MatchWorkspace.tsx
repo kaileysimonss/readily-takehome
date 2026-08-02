@@ -2,16 +2,28 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import type { Match } from "@/lib/data";
-import ObligationRow from "./ObligationRow";
+import type { MatchItem } from "@/lib/data";
+import MatchRow from "./MatchRow";
 import ClaimDetail, { SelectedClaim } from "./ClaimDetail";
-import ObligationDetail from "./ObligationDetail";
+import ItemDetail from "./ItemDetail";
 import Overview from "./Overview";
-import { VERDICT_CONFIG, VERDICT_ORDER, Verdict } from "./verdict";
+import { VERDICT_CONFIG, VERDICT_ORDER, Verdict } from "@/lib/verdict";
 
 type FilterValue = "all" | Verdict;
 
-export default function EcmWorkspace({ matches }: { matches: Match[] }) {
+export default function MatchWorkspace({
+  items,
+  title,
+  unitLabelSingular,
+  unitLabelPlural,
+  sourceLabel,
+}: {
+  items: MatchItem[];
+  title: string;
+  unitLabelSingular: string;
+  unitLabelPlural: string;
+  sourceLabel: string;
+}) {
   const [hasRun, setHasRun] = useState(false);
   const [isRunning, setIsRunning] = useState(false);
   const [filter, setFilter] = useState<FilterValue>("all");
@@ -21,23 +33,23 @@ export default function EcmWorkspace({ matches }: { matches: Match[] }) {
   const [chunkCache, setChunkCache] = useState<Record<string, SelectedClaim>>({});
 
   const counts = useMemo(() => {
-    const c: Record<string, number> = { all: matches.length };
-    for (const m of matches) c[m.verdict] = (c[m.verdict] ?? 0) + 1;
+    const c: Record<string, number> = { all: items.length };
+    for (const m of items) c[m.verdict] = (c[m.verdict] ?? 0) + 1;
     return c;
-  }, [matches]);
+  }, [items]);
 
   const filtered = useMemo(
-    () => (filter === "all" ? matches : matches.filter((m) => m.verdict === filter)),
-    [matches, filter]
+    () => (filter === "all" ? items : items.filter((m) => m.verdict === filter)),
+    [items, filter]
   );
 
-  const expandedMatch = useMemo(
-    () => matches.find((m) => m.obligationId === expandedId) ?? null,
-    [matches, expandedId]
+  const expandedItem = useMemo(
+    () => items.find((m) => m.id === expandedId) ?? null,
+    [items, expandedId]
   );
 
-  function toggleRow(obligationId: string) {
-    setExpandedId((id) => (id === obligationId ? null : obligationId));
+  function toggleRow(id: string) {
+    setExpandedId((cur) => (cur === id ? null : id));
     setSelectedClaim(null);
   }
 
@@ -77,25 +89,27 @@ export default function EcmWorkspace({ matches }: { matches: Match[] }) {
           <Link href="/" className="text-sm text-zinc-400 hover:text-zinc-700">
             ← Back
           </Link>
-          <h1 className="text-sm font-semibold text-zinc-800">
-            P&amp;P vs. ECM Policy Guide
-          </h1>
+          <h1 className="text-sm font-semibold text-zinc-800">{title}</h1>
         </div>
-        <p className="text-xs text-zinc-400">{`${matches.length} obligations extracted`}</p>
+        <p className="text-xs text-zinc-400">{`${items.length} ${unitLabelPlural} extracted`}</p>
       </header>
 
       <div className="flex min-h-0 flex-1">
         <div className="w-1/2 border-r border-zinc-200">
           {selectedClaim ? (
-            <ClaimDetail claim={selectedClaim} onBack={() => setSelectedClaim(null)} />
-          ) : expandedMatch ? (
-            <ObligationDetail match={expandedMatch} />
+            <ClaimDetail
+              claim={selectedClaim}
+              onBack={() => setSelectedClaim(null)}
+              backLabel={unitLabelSingular}
+            />
+          ) : expandedItem ? (
+            <ItemDetail item={expandedItem} />
           ) : hasRun ? (
-            <Overview matches={matches} />
+            <Overview items={items} unitLabelPlural={unitLabelPlural} />
           ) : (
             <div className="flex h-full flex-col items-center justify-center gap-2 bg-zinc-50 px-8 text-center">
               <p className="text-sm font-medium text-zinc-600">
-                {`${matches.length} obligations extracted from the ECM Policy Guide`}
+                {`${items.length} ${unitLabelPlural} extracted from ${sourceLabel}`}
               </p>
               <p className="max-w-xs text-xs text-zinc-400">
                 Click Run to check each one against the plan&apos;s P&amp;P documents. An
@@ -138,17 +152,16 @@ export default function EcmWorkspace({ matches }: { matches: Match[] }) {
               <div className="flex h-full flex-col items-center justify-center gap-2 text-center text-zinc-400">
                 <p className="text-sm font-medium">Not started</p>
                 <p className="max-w-xs text-xs">
-                  Click Run to check every obligation extracted from the ECM Policy Guide
-                  against the plan&apos;s P&amp;P documents.
+                  {`Click Run to check every ${unitLabelSingular} extracted from ${sourceLabel} against the plan's P&P documents.`}
                 </p>
               </div>
             ) : (
               filtered.map((m) => (
-                <ObligationRow
-                  key={m.obligationId}
-                  match={m}
-                  isExpanded={expandedId === m.obligationId}
-                  onToggle={() => toggleRow(m.obligationId)}
+                <MatchRow
+                  key={m.id}
+                  item={m}
+                  isExpanded={expandedId === m.id}
+                  onToggle={() => toggleRow(m.id)}
                   onSelectCandidate={selectCandidate}
                   selectedChunkId={selectedClaim?.chunkId ?? null}
                   loadingChunkId={loadingChunkId}

@@ -33,21 +33,24 @@ export default function Home() {
             </span>
           </Link>
 
-          <div
-            aria-disabled="true"
-            className="flex cursor-not-allowed flex-col rounded-xl border border-dashed border-zinc-200 bg-zinc-50 p-6 opacity-60"
+          <Link
+            href="/questionnaire"
+            className="group flex flex-col rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:border-zinc-400 hover:shadow-md"
           >
-            <span className="text-xs font-medium uppercase tracking-wide text-zinc-400">
-              Coming soon
+            <span className="text-xs font-medium uppercase tracking-wide text-emerald-600">
+              Available
             </span>
-            <h2 className="mt-2 text-lg font-semibold text-zinc-500">
+            <h2 className="mt-2 text-lg font-semibold text-zinc-900">
               Check P&amp;P against Questionnaire
             </h2>
-            <p className="mt-2 flex-1 text-sm text-zinc-400">
+            <p className="mt-2 flex-1 text-sm text-zinc-500">
               Answer a DHCS Submission Review Form question-by-question, with the exact
               P&amp;P citation that proves compliance.
             </p>
-          </div>
+            <span className="mt-4 text-sm font-medium text-zinc-900 group-hover:underline">
+              Open →
+            </span>
+          </Link>
         </div>
       </main>
     </div>

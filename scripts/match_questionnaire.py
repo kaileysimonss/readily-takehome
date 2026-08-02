@@ -1,23 +1,41 @@
+"""Matches each questionnaire question against the P&P corpus - same
+retrieval + LLM-judgment pattern as match_all.py (top-10 + same-document
+expansion, then judge_obligation for a supports/partial/contradicts/gap
+verdict), but sourcing the question side from the QUESTION_ANSWERING-typed
+embeddings and the P&P side from the RETRIEVAL_DOCUMENT-typed embeddings
+built specifically for this pairing."""
 import json
 import os
-import time
 from concurrent.futures import ThreadPoolExecutor
 
 from lib.vectors import load_vectors, top_k, cosine
 from lib.match_helpers import judge_with_verification
 
-PP_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "plan_policies")
-ECM_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "ecm_guide")
-OUT_FILE = os.path.join(ECM_DIR, "matches.json")
+Q_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "questionnaire")
+PP_META_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "plan_policies", "chunks-meta.json")
+PP_QA_VECS_FILE = os.path.join(Q_DIR, "pp-embeddings.bin")
+OUT_FILE = os.path.join(Q_DIR, "matches.json")
 
+DIM = 256
 TOP_K = 10
-SAME_DOC_CAP = 50  # guard against outlier docs (e.g. the 313-chunk glossary)
+SAME_DOC_CAP = 50
 CONCURRENCY = 5
-CHECKPOINT_FILE = os.path.join(ECM_DIR, "matches.partial.json")
 
 
-def build_candidates(obl_vec, pp_meta, pp_vecs):
-    top = top_k(obl_vec, pp_vecs, TOP_K)
+def load_pp_for_qa():
+    with open(PP_META_FILE) as f:
+        pp_meta = json.load(f)
+    with open(PP_QA_VECS_FILE, "rb") as f:
+        raw = f.read()
+    n = len(raw) // (DIM * 4)
+    assert n == len(pp_meta), f"pp-embeddings.bin has {n} vectors but chunks-meta.json has {len(pp_meta)} entries"
+    import struct
+    pp_vecs = [struct.unpack_from(f"<{DIM}f", raw, i * DIM * 4) for i in range(n)]
+    return pp_meta, pp_vecs
+
+
+def build_candidates(q_vec, pp_meta, pp_vecs):
+    top = top_k(q_vec, pp_vecs, TOP_K)
     top_indices = [i for _, i in top]
 
     top_doc = pp_meta[top_indices[0]]["doc"]
@@ -32,7 +50,7 @@ def build_candidates(obl_vec, pp_meta, pp_vecs):
             "doc": pp_meta[i]["doc"],
             "section": pp_meta[i]["section"],
             "text": pp_meta[i]["text"],
-            "score": cosine(obl_vec, pp_vecs[i]),
+            "score": cosine(q_vec, pp_vecs[i]),
         }
         for i in all_indices
     ]
@@ -43,31 +61,32 @@ def main():
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
 
-    obl_meta, obl_vecs = load_vectors(ECM_DIR, "obligations-meta.json")
-    pp_meta, pp_vecs = load_vectors(PP_DIR, "chunks-meta.json")
+    q_meta, q_vecs = load_vectors(Q_DIR, "questions-meta.json", dim=DIM)
+    pp_meta, pp_vecs = load_pp_for_qa()
     pp_by_chunk_id = {c["chunkId"]: c for c in pp_meta}
 
-    print(f"Matching {len(obl_meta)} obligations against {len(pp_meta)} P&P chunks (concurrency={CONCURRENCY})...")
+    print(f"Matching {len(q_meta)} questions against {len(pp_meta)} P&P chunks (concurrency={CONCURRENCY})...")
 
-    results = [None] * len(obl_meta)
+    results = [None] * len(q_meta)
     failures = []
     completed = 0
 
     def process(idx):
         nonlocal completed
-        o = obl_meta[idx]
-        t0 = time.time()
+        q = q_meta[idx]
         try:
-            candidates = build_candidates(obl_vecs[idx], pp_meta, pp_vecs)
-            verdict, citation_verified = judge_with_verification(api_key, o["obligation"], candidates)
+            candidates = build_candidates(q_vecs[idx], pp_meta, pp_vecs)
+            verdict, citation_verified = judge_with_verification(api_key, q["question"], candidates)
             matched = pp_by_chunk_id.get(verdict.get("matchedChunkId", "")) if citation_verified else None
             candidates_sorted = sorted(candidates, key=lambda c: -c["score"])
             results[idx] = {
-                "obligationId": o["obligationId"],
-                "doc": o["doc"],
-                "docTitle": o["docTitle"],
-                "page": o["page"],
-                "obligation": o["obligation"],
+                "questionId": q["questionId"],
+                "doc": q["doc"],
+                "docTitle": q["docTitle"],
+                "page": q["page"],
+                "number": q["number"],
+                "question": q["question"],
+                "reference": q["reference"],
                 "verdict": verdict["verdict"],
                 "matchedChunkId": verdict.get("matchedChunkId") or None,
                 "matchedDoc": matched["doc"] if matched else None,
@@ -81,13 +100,15 @@ def main():
             }
             status = verdict["verdict"] if citation_verified else f"{verdict['verdict']} (UNVERIFIED CITATION)"
         except Exception as err:  # noqa: BLE001
-            failures.append({"obligationId": o["obligationId"], "error": str(err)})
+            failures.append({"questionId": q["questionId"], "error": str(err)})
             results[idx] = {
-                "obligationId": o["obligationId"],
-                "doc": o["doc"],
-                "docTitle": o["docTitle"],
-                "page": o["page"],
-                "obligation": o["obligation"],
+                "questionId": q["questionId"],
+                "doc": q["doc"],
+                "docTitle": q["docTitle"],
+                "page": q["page"],
+                "number": q["number"],
+                "question": q["question"],
+                "reference": q["reference"],
                 "verdict": "error",
                 "matchedChunkId": None,
                 "matchedDoc": None,
@@ -98,16 +119,11 @@ def main():
             }
             status = f"ERROR: {err}"
         completed += 1
-        print(f"  [{completed}/{len(obl_meta)}] {o['obligationId']} ({time.time()-t0:.1f}s) -> {status}", flush=True)
-        if completed % 20 == 0 or completed == len(obl_meta):
-            done_so_far = [r for r in results if r is not None]
-            with open(CHECKPOINT_FILE, "w") as f:
-                json.dump(done_so_far, f, indent=2)
+        print(f"  [{completed}/{len(q_meta)}] {q['questionId']} ({status})", flush=True)
 
     with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
-        list(executor.map(process, range(len(obl_meta))))
+        list(executor.map(process, range(len(q_meta))))
 
-    os.makedirs(os.path.dirname(OUT_FILE), exist_ok=True)
     with open(OUT_FILE, "w") as f:
         json.dump(results, f, indent=2)
 
@@ -118,7 +134,7 @@ def main():
     if failures:
         print(f"\n{len(failures)} failures:")
         for f in failures:
-            print(f" - {f['obligationId']}: {f['error']}")
+            print(f" - {f['questionId']}: {f['error']}")
 
 
 if __name__ == "__main__":

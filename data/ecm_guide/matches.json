@@ -353,7 +353,8 @@
         "section": "I.J.2",
         "score": 0.5661
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p3-2",
@@ -721,7 +722,8 @@
         "section": "I.2",
         "score": 0.5523
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-1",
@@ -1089,7 +1091,8 @@
         "section": "II.E.1",
         "score": 0.634
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-2",
@@ -1457,7 +1460,8 @@
         "section": "II.E.1",
         "score": 0.6286
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-3",
@@ -1825,7 +1829,8 @@
         "section": "II.E.1",
         "score": 0.6625
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-4",
@@ -2193,7 +2198,8 @@
         "section": "II.E.1",
         "score": 0.6297
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-5",
@@ -2561,7 +2567,8 @@
         "section": "II.E.1",
         "score": 0.6282
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-6",
@@ -2923,7 +2930,8 @@
         "section": "III.C.2",
         "score": 0.5867
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p4-7",
@@ -3273,7 +3281,8 @@
         "section": "III.C.2",
         "score": 0.5667
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p5-1",
@@ -3611,7 +3620,8 @@
         "section": "I.L",
         "score": 0.6684
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p10-1",
@@ -3973,7 +3983,8 @@
         "section": "II.E.4",
         "score": 0.6114
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p10-2",
@@ -4317,7 +4328,8 @@
         "section": "II.E.1",
         "score": 0.5742
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p11-1",
@@ -4685,7 +4697,8 @@
         "section": "III.C.1",
         "score": 0.6022
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p11-2",
@@ -5059,7 +5072,8 @@
         "section": "III.A.8",
         "score": 0.5431
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p11-3",
@@ -5373,7 +5387,8 @@
         "section": "X.Z",
         "score": 0.5934
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p11-4",
@@ -5687,7 +5702,8 @@
         "section": "X.Z",
         "score": 0.6329
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p13-1",
@@ -5947,7 +5963,8 @@
         "section": "II.B.2",
         "score": 0.6341
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p13-2",
@@ -6315,7 +6332,8 @@
         "section": "II.E.3",
         "score": 0.5427
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p13-3",
@@ -6653,7 +6671,8 @@
         "section": "I.L",
         "score": 0.6561
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p15-1",
@@ -7015,7 +7034,8 @@
         "section": "II.E.3",
         "score": 0.6308
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p15-2",
@@ -7383,7 +7403,8 @@
         "section": "II.E.4",
         "score": 0.5834
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p15-3",
@@ -7595,7 +7616,8 @@
         "section": "I.J",
         "score": 0.5473
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p15-4",
@@ -7957,7 +7979,8 @@
         "section": "III.B.10",
         "score": 0.5659
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-1",
@@ -8325,7 +8348,8 @@
         "section": "III.C.2",
         "score": 0.5504
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-2",
@@ -8669,7 +8693,8 @@
         "section": "II.E.3",
         "score": 0.5817
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-3",
@@ -9043,7 +9068,8 @@
         "section": "II.2",
         "score": 0.5464
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-4",
@@ -9417,7 +9443,8 @@
         "section": "II.1",
         "score": 0.5112
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-5",
@@ -9725,7 +9752,8 @@
         "section": "X.Z",
         "score": 0.5887
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-6",
@@ -10087,7 +10115,8 @@
         "section": "II.E.3",
         "score": 0.6168
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-7",
@@ -10413,7 +10442,8 @@
         "section": "X.Z",
         "score": 0.624
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-8",
@@ -10781,7 +10811,8 @@
         "section": "III.C.2",
         "score": 0.5851
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p16-9",
@@ -11149,7 +11180,8 @@
         "section": "III.C.2",
         "score": 0.5706
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p17-1",
@@ -11517,7 +11549,8 @@
         "section": "II.D.9",
         "score": 0.5516
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p17-2",
@@ -11843,7 +11876,8 @@
         "section": "I.N",
         "score": 0.5976
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p17-3",
@@ -12175,7 +12209,8 @@
         "section": "X.Z",
         "score": 0.6324
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p18-1",
@@ -12489,7 +12524,8 @@
         "section": "I.P",
         "score": 0.5974
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p18-2",
@@ -12815,7 +12851,8 @@
         "section": "X.Z",
         "score": 0.6206
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p18-3",
@@ -13159,7 +13196,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p19-1",
@@ -13305,7 +13343,8 @@
         "section": "II.C.1",
         "score": 0.6543
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p19-2",
@@ -13667,7 +13706,8 @@
         "section": "III.B.10",
         "score": 0.5659
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p19-3",
@@ -13993,7 +14033,8 @@
         "section": "I.N",
         "score": 0.5766
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p20-1",
@@ -14325,7 +14366,8 @@
         "section": "I.N",
         "score": 0.6022
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p20-2",
@@ -14699,7 +14741,8 @@
         "section": "III.A.8",
         "score": 0.5437
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-1",
@@ -15061,7 +15104,8 @@
         "section": "I.Q",
         "score": 0.5601
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-2",
@@ -15417,7 +15461,8 @@
         "section": "II.D.1",
         "score": 0.5394
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-3",
@@ -15773,7 +15818,8 @@
         "section": "III.F.5",
         "score": 0.5038
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-4",
@@ -16135,7 +16181,8 @@
         "section": "III.D",
         "score": 0.5476
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-5",
@@ -16497,7 +16544,8 @@
         "section": "I.O",
         "score": 0.5812
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-6",
@@ -16775,7 +16823,8 @@
         "section": "I.M",
         "score": 0.5338
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-7",
@@ -16879,7 +16928,8 @@
         "section": "II.D",
         "score": 0.6816
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-8",
@@ -17229,7 +17279,8 @@
         "section": "II.E.3",
         "score": 0.5582
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-9",
@@ -17597,7 +17648,8 @@
         "section": "III.D",
         "score": 0.6149
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-10",
@@ -17899,7 +17951,8 @@
         "section": "II.C.2",
         "score": 0.5754
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p21-11",
@@ -18249,7 +18302,8 @@
         "section": "II.B.2",
         "score": 0.6375
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-1",
@@ -18258,10 +18312,10 @@
     "page": 22,
     "obligation": "ECM requires engagement with the Member in the community or at Provider locations.",
     "verdict": "supports",
-    "matchedChunkId": "GG.1356-III.G.1.g.i",
-    "matchedDoc": null,
-    "matchedSection": null,
-    "explanation": "The policy explicitly states that ECM Providers shall \"meet ECM Members where they are in terms of the physical location that is most convenient and desirable for the Member to engage in services,\" directly addressing the requirement for engagement in community or provider locations.",
+    "matchedChunkId": "GG.1356-III.G.1",
+    "matchedDoc": "GG.1356",
+    "matchedSection": "III.G.1",
+    "explanation": "The policy explicitly states that 'ECM Providers and Lead Care Managers shall meet ECM Members where they are in terms of the physical location that is most convenient and desirable for the Member to engage in services' and includes 'accompanying Members to critical appointments when necessary', directly supporting engagement in the community or at provider locations.",
     "candidates": [
       {
         "chunkId": "GG.1356-II.G",
@@ -18617,7 +18671,8 @@
         "section": "III.C.2",
         "score": 0.5626
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-2",
@@ -18973,7 +19028,8 @@
         "section": "II.E.3",
         "score": 0.5877
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-3",
@@ -19125,7 +19181,8 @@
         "section": "III.B",
         "score": 0.5973
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-4",
@@ -19493,7 +19550,8 @@
         "section": "III.A.3",
         "score": 0.5601
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-5",
@@ -19867,7 +19925,8 @@
         "section": "II.E",
         "score": 0.5919
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-6",
@@ -20235,7 +20294,8 @@
         "section": "II.E.3",
         "score": 0.5876
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-7",
@@ -20603,7 +20663,8 @@
         "section": "III.C.2",
         "score": 0.5762
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-8",
@@ -20971,7 +21032,8 @@
         "section": "III.A.1",
         "score": 0.5885
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p22-9",
@@ -21339,7 +21401,8 @@
         "section": "II.D.15",
         "score": 0.6016
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p23-1",
@@ -21683,7 +21746,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p25-1",
@@ -22045,7 +22109,8 @@
         "section": "III.B.10",
         "score": 0.5659
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p25-2",
@@ -22407,7 +22472,8 @@
         "section": "III.B.10",
         "score": 0.5659
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p26-1",
@@ -22769,7 +22835,8 @@
         "section": "II.E.3",
         "score": 0.6233
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p26-2",
@@ -23137,7 +23204,8 @@
         "section": "I.6",
         "score": 0.5392
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p26-3",
@@ -23505,7 +23573,8 @@
         "section": "I.12",
         "score": 0.534
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p26-4",
@@ -23867,7 +23936,8 @@
         "section": "III.D",
         "score": 0.5674
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p26-5",
@@ -24133,7 +24203,8 @@
         "section": "II.C",
         "score": 0.6108
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p27-1",
@@ -24507,7 +24578,8 @@
         "section": "III.A.2",
         "score": 0.5505
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p27-2",
@@ -24869,7 +24941,8 @@
         "section": "III.B.5",
         "score": 0.5784
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p27-3",
@@ -25195,7 +25268,8 @@
         "section": "X.Z",
         "score": 0.6359
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p27-4",
@@ -25557,7 +25631,8 @@
         "section": "II.E.1",
         "score": 0.5992
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p27-5",
@@ -25871,7 +25946,8 @@
         "section": "I.K",
         "score": 0.5982
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p28-1",
@@ -26239,7 +26315,8 @@
         "section": "II.E.3",
         "score": 0.5932
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p28-2",
@@ -26601,7 +26678,8 @@
         "section": "II.E.1",
         "score": 0.6014
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p28-3",
@@ -26969,7 +27047,8 @@
         "section": "I.R.1",
         "score": 0.5538
       }
-    ]
+    ],
+    "citationVerified": false
   },
   {
     "obligationId": "ECM-p28-4",
@@ -27277,7 +27356,8 @@
         "section": "X.Z",
         "score": 0.6012
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p28-5",
@@ -27597,7 +27677,8 @@
         "section": "X.Z",
         "score": 0.6342
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p29-1",
@@ -27965,7 +28046,8 @@
         "section": "I.J.3",
         "score": 0.5433
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p30-1",
@@ -28309,7 +28391,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p30-2",
@@ -28653,7 +28736,8 @@
         "section": "III.C.2",
         "score": 0.5194
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p30-3",
@@ -28967,7 +29051,8 @@
         "section": "II.A.3",
         "score": 0.4686
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p30-4",
@@ -29269,7 +29354,8 @@
         "section": "I.N",
         "score": 0.5992
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p31-1",
@@ -29631,7 +29717,8 @@
         "section": "II.E.3",
         "score": 0.6187
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p32-1",
@@ -29993,7 +30080,8 @@
         "section": "III.B.10",
         "score": 0.5689
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p34-1",
@@ -30331,7 +30419,8 @@
         "section": "I.L",
         "score": 0.6616
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p35-1",
@@ -30687,7 +30776,8 @@
         "section": "III.C.2",
         "score": 0.5616
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p35-2",
@@ -31049,7 +31139,8 @@
         "section": "II.B.3",
         "score": 0.5731
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p35-3",
@@ -31201,7 +31292,8 @@
         "section": "III.C.4",
         "score": 0.5441
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-1",
@@ -31563,7 +31655,8 @@
         "section": "III.C.2",
         "score": 0.6081
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-2",
@@ -31871,7 +31964,8 @@
         "section": "X.Z",
         "score": 0.5946
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-3",
@@ -32209,7 +32303,8 @@
         "section": "I.J",
         "score": 0.6211
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-4",
@@ -32433,7 +32528,8 @@
         "section": "III.B.1",
         "score": 0.5478
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-5",
@@ -32801,7 +32897,8 @@
         "section": "III.C.2",
         "score": 0.5851
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-6",
@@ -33163,7 +33260,8 @@
         "section": "III.C.2",
         "score": 0.5263
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-7",
@@ -33531,7 +33629,8 @@
         "section": "II.F.6",
         "score": 0.552
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-8",
@@ -33893,7 +33992,8 @@
         "section": "III.H.4",
         "score": 0.532
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-9",
@@ -34261,7 +34361,8 @@
         "section": "II.F.3",
         "score": 0.5513
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p36-10",
@@ -34575,7 +34676,8 @@
         "section": "II.C.5",
         "score": 0.539
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p37-1",
@@ -34919,7 +35021,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p38-1",
@@ -35227,7 +35330,8 @@
         "section": "III.A.2",
         "score": 0.5475
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p38-2",
@@ -35601,7 +35705,8 @@
         "section": "III.A.8",
         "score": 0.5437
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-1",
@@ -35963,7 +36068,8 @@
         "section": "III.D",
         "score": 0.5689
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-2",
@@ -36325,7 +36431,8 @@
         "section": "II.E.3",
         "score": 0.5373
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-3",
@@ -36669,7 +36776,8 @@
         "section": "II.E.3",
         "score": 0.6115
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-4",
@@ -36881,7 +36989,8 @@
         "section": "II.D",
         "score": 0.5792
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-5",
@@ -37243,7 +37352,8 @@
         "section": "III.H.4",
         "score": 0.5305
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-6",
@@ -37611,7 +37721,8 @@
         "section": "III.G.2",
         "score": 0.5502
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p39-7",
@@ -37979,7 +38090,8 @@
         "section": "III.C.2",
         "score": 0.6001
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-1",
@@ -38305,7 +38417,8 @@
         "section": "X.Z",
         "score": 0.5606
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-2",
@@ -38673,7 +38786,8 @@
         "section": "III.C.2",
         "score": 0.5838
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-3",
@@ -39035,7 +39149,8 @@
         "section": "III.C.2",
         "score": 0.5288
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-4",
@@ -39403,7 +39518,8 @@
         "section": "II.F.3",
         "score": 0.5739
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-5",
@@ -39765,7 +39881,8 @@
         "section": "III.H.4",
         "score": 0.532
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-6",
@@ -40133,7 +40250,8 @@
         "section": "II.F.3",
         "score": 0.5503
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p40-7",
@@ -40465,7 +40583,8 @@
         "section": "I.N",
         "score": 0.6232
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p41-1",
@@ -40809,7 +40928,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p41-2",
@@ -41171,7 +41291,8 @@
         "section": "III.B.11",
         "score": 0.5981
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p42-1",
@@ -41545,7 +41666,8 @@
         "section": "III.A.8",
         "score": 0.5437
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p43-1",
@@ -41913,7 +42035,8 @@
         "section": "II.E.1",
         "score": 0.6331
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p43-2",
@@ -42275,7 +42398,8 @@
         "section": "II.B.3",
         "score": 0.5818
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p43-3",
@@ -42637,7 +42761,8 @@
         "section": "III.C.2",
         "score": 0.5448
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p43-4",
@@ -42999,7 +43124,8 @@
         "section": "III.C.2",
         "score": 0.5815
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p44-1",
@@ -43349,7 +43475,8 @@
         "section": "II.D.1",
         "score": 0.5661
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p44-2",
@@ -43651,7 +43778,8 @@
         "section": "X.Z",
         "score": 0.6182
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p44-3",
@@ -44019,7 +44147,8 @@
         "section": "III.B.3",
         "score": 0.6
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p44-4",
@@ -44351,7 +44480,8 @@
         "section": "I.N",
         "score": 0.6232
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p45-1",
@@ -44695,7 +44825,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p45-2",
@@ -45051,7 +45182,8 @@
         "section": "III.B.5",
         "score": 0.543
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p45-3",
@@ -45413,7 +45545,8 @@
         "section": "II.D.1",
         "score": 0.5855
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p46-1",
@@ -45787,7 +45920,8 @@
         "section": "III.A.8",
         "score": 0.5438
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p47-1",
@@ -46101,7 +46235,8 @@
         "section": "II.A.1",
         "score": 0.5428
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p47-2",
@@ -46463,7 +46598,8 @@
         "section": "III.C.2",
         "score": 0.5387
       }
-    ]
+    ],
+    "citationVerified": false
   },
   {
     "obligationId": "ECM-p48-1",
@@ -46831,7 +46967,8 @@
         "section": "II.E.1",
         "score": 0.6246
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p48-2",
@@ -46840,10 +46977,10 @@
     "page": 48,
     "obligation": "For children enrolled in California Wraparound or HCPCFC, the ECM Provider is expected to leverage the comprehensive assessments conducted and the care plans developed by California Wraparound and HCPCFC in developing the Member\u2019s ECM care management plan.",
     "verdict": "partial",
-    "matchedChunkId": "GG.1356-III.G.1.j",
-    "matchedDoc": null,
-    "matchedSection": null,
-    "explanation": "The policy states that ECM Providers must use a documentation system that supports the \"integration of... information from other entities to support the management and maintenance of ECM Member care plans.\" While this suggests leveraging information from other providers, it does not explicitly name California Wraparound or HCPCFC, nor does it specifically mention leveraging their comprehensive assessments and care plans for developing the ECM care management plan.",
+    "matchedChunkId": "GG.1356-III.G.1",
+    "matchedDoc": "GG.1356",
+    "matchedSection": "III.G.1",
+    "explanation": "The policy requires ECM Providers to integrate 'information from other entities' and 'gather information from other sources' into the ECM care plan, which is relevant to leveraging external data. However, it does not explicitly name California Wraparound or HCPCFC, nor does it specifically mention leveraging their comprehensive assessments and care plans, making it an indirect match.",
     "candidates": [
       {
         "chunkId": "GG.1356-III.A.3",
@@ -47199,7 +47336,8 @@
         "section": "III.C.2",
         "score": 0.5519
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p48-3",
@@ -47549,7 +47687,8 @@
         "section": "II.E.1",
         "score": 0.6022
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p48-4",
@@ -47863,7 +48002,8 @@
         "section": "II.C.5",
         "score": 0.5432
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p49-1",
@@ -48207,7 +48347,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p49-2",
@@ -48557,7 +48698,8 @@
         "section": "III.C.2",
         "score": 0.5318
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p50-1",
@@ -48865,7 +49007,8 @@
         "section": "III.B.5",
         "score": 0.5959
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-1",
@@ -48993,7 +49136,8 @@
         "section": "III",
         "score": 0.6245
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-2",
@@ -49361,7 +49505,8 @@
         "section": "II.E.3",
         "score": 0.5496
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-3",
@@ -49729,7 +49874,8 @@
         "section": "II.E.3",
         "score": 0.5792
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-4",
@@ -50049,7 +50195,8 @@
         "section": "II.B.8",
         "score": 0.5632
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-5",
@@ -50411,7 +50558,8 @@
         "section": "II.G.2",
         "score": 0.572
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-6",
@@ -50773,7 +50921,8 @@
         "section": "II.E.3",
         "score": 0.6233
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-7",
@@ -51141,7 +51290,8 @@
         "section": "II.D.7",
         "score": 0.5674
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-8",
@@ -51503,7 +51653,8 @@
         "section": "III.D",
         "score": 0.5645
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p51-9",
@@ -51865,7 +52016,8 @@
         "section": "I.N",
         "score": 0.5281
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p52-1",
@@ -52233,7 +52385,8 @@
         "section": "III.C.2",
         "score": 0.5626
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p52-2",
@@ -52595,7 +52748,8 @@
         "section": "II.A.2",
         "score": 0.6432
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p52-3",
@@ -52969,7 +53123,8 @@
         "section": "II.E.3",
         "score": 0.6042
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p52-4",
@@ -53283,7 +53438,8 @@
         "section": "X.Z",
         "score": 0.6115
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p52-5",
@@ -53591,7 +53747,8 @@
         "section": "X.Z",
         "score": 0.5885
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p52-6",
@@ -53851,7 +54008,8 @@
         "section": "I.M",
         "score": 0.5558
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p53-1",
@@ -54219,7 +54377,8 @@
         "section": "I.J.3",
         "score": 0.5433
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p54-1",
@@ -54563,7 +54722,8 @@
         "section": "III.C.2",
         "score": 0.5376
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p54-2",
@@ -54919,7 +55079,8 @@
         "section": "II.E.3",
         "score": 0.6217
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p54-3",
@@ -55233,7 +55394,8 @@
         "section": "I.Q",
         "score": 0.596
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p55-1",
@@ -55553,7 +55715,8 @@
         "section": "I.K",
         "score": 0.6198
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p55-2",
@@ -55909,7 +56072,8 @@
         "section": "II.A.4",
         "score": 0.6263
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p55-3",
@@ -56271,7 +56435,8 @@
         "section": "II.E.1",
         "score": 0.587
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p55-4",
@@ -56621,7 +56786,8 @@
         "section": "III.C.2",
         "score": 0.594
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p56-1",
@@ -56941,7 +57107,8 @@
         "section": "III.C",
         "score": 0.5855
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p56-2",
@@ -57189,7 +57356,8 @@
         "section": "I.K",
         "score": 0.5714
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-1",
@@ -57527,7 +57695,8 @@
         "section": "I.J",
         "score": 0.6302
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-2",
@@ -57889,7 +58058,8 @@
         "section": "III.C.2",
         "score": 0.5667
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-3",
@@ -58251,7 +58421,8 @@
         "section": "II.E.4",
         "score": 0.6133
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-4",
@@ -58577,7 +58748,8 @@
         "section": "X.Z",
         "score": 0.5904
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-5",
@@ -58951,7 +59123,8 @@
         "section": "II.5",
         "score": 0.5151
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-6",
@@ -59319,7 +59492,8 @@
         "section": "II.F.6",
         "score": 0.5516
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p57-7",
@@ -59639,7 +59813,8 @@
         "section": "X.Z",
         "score": 0.5885
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-1",
@@ -59947,7 +60122,8 @@
         "section": "X.Z",
         "score": 0.5764
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-2",
@@ -60285,7 +60461,8 @@
         "section": "X.Z",
         "score": 0.573
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-3",
@@ -60653,7 +60830,8 @@
         "section": "I",
         "score": 0.6104
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-4",
@@ -60973,7 +61151,8 @@
         "section": "X.Z",
         "score": 0.5978
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-5",
@@ -61305,7 +61484,8 @@
         "section": "I.K",
         "score": 0.5811
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-6",
@@ -61613,7 +61793,8 @@
         "section": "X.Z",
         "score": 0.5872
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-7",
@@ -61927,7 +62108,8 @@
         "section": "V.W",
         "score": 0.6141
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-8",
@@ -62241,7 +62423,8 @@
         "section": "X.Z",
         "score": 0.6203
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-9",
@@ -62615,7 +62798,8 @@
         "section": "II.5",
         "score": 0.5889
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-10",
@@ -62947,7 +63131,8 @@
         "section": "I.N",
         "score": 0.5867
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p58-11",
@@ -63261,7 +63446,8 @@
         "section": "I.K",
         "score": 0.5945
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p59-1",
@@ -63545,7 +63731,8 @@
         "section": "II.C.6",
         "score": 0.5325
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p59-2",
@@ -63883,7 +64070,8 @@
         "section": "X.Z",
         "score": 0.6057
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p59-3",
@@ -64203,7 +64391,8 @@
         "section": "X.Z",
         "score": 0.6086
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p60-1",
@@ -64571,7 +64760,8 @@
         "section": "III.B.5",
         "score": 0.6099
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p60-2",
@@ -64927,7 +65117,8 @@
         "section": "III.B.5",
         "score": 0.6335
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p60-3",
@@ -65265,7 +65456,8 @@
         "section": "I.Q",
         "score": 0.6118
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-1",
@@ -65567,7 +65759,8 @@
         "section": "III.B.3",
         "score": 0.5601
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-2",
@@ -65821,7 +66014,8 @@
         "section": "I.K",
         "score": 0.6169
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-3",
@@ -66045,7 +66239,8 @@
         "section": "III.F.3",
         "score": 0.6011
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-4",
@@ -66413,7 +66608,8 @@
         "section": "II.C.11",
         "score": 0.5368
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-5",
@@ -66781,7 +66977,8 @@
         "section": "III.C.3",
         "score": 0.5542
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-6",
@@ -66999,7 +67196,8 @@
         "section": "I.L",
         "score": 0.5757
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-7",
@@ -67361,7 +67559,8 @@
         "section": "III.B.5",
         "score": 0.5824
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-8",
@@ -67693,7 +67892,8 @@
         "section": "X.Z",
         "score": 0.5931
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-9",
@@ -67995,7 +68195,8 @@
         "section": "X.Z",
         "score": 0.573
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-10",
@@ -68357,7 +68558,8 @@
         "section": "III.E.8",
         "score": 0.5986
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-11",
@@ -68719,7 +68921,8 @@
         "section": "III.E.8",
         "score": 0.5836
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p61-12",
@@ -69087,7 +69290,8 @@
         "section": "I.P",
         "score": 0.5611
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p62-1",
@@ -69335,7 +69539,8 @@
         "section": "I.K",
         "score": 0.6209
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p62-2",
@@ -69649,7 +69854,8 @@
         "section": "III.A.3",
         "score": 0.6414
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p62-3",
@@ -69957,7 +70163,8 @@
         "section": "X.Z",
         "score": 0.6063
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p65-1",
@@ -70265,7 +70472,8 @@
         "section": "I.P",
         "score": 0.5679
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p65-2",
@@ -70555,7 +70763,8 @@
         "section": "II.C",
         "score": 0.5714
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p65-3",
@@ -70923,7 +71132,8 @@
         "section": "II.E.1",
         "score": 0.6068
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p65-4",
@@ -71291,7 +71501,8 @@
         "section": "III.A",
         "score": 0.5802
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p65-5",
@@ -71647,7 +71858,8 @@
         "section": "II.E.1",
         "score": 0.601
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p66-1",
@@ -71961,7 +72173,8 @@
         "section": "X.Z",
         "score": 0.6277
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p66-2",
@@ -72323,7 +72536,8 @@
         "section": "III.C.2",
         "score": 0.5786
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p66-3",
@@ -72673,7 +72887,8 @@
         "section": "III.C.2",
         "score": 0.5662
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-1",
@@ -72903,7 +73118,8 @@
         "section": "III.C.3",
         "score": 0.6386
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-2",
@@ -73235,7 +73451,8 @@
         "section": "I.U",
         "score": 0.571
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-3",
@@ -73609,7 +73826,8 @@
         "section": "II.5",
         "score": 0.5248
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-4",
@@ -73971,7 +74189,8 @@
         "section": "III.A.2",
         "score": 0.567
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-5",
@@ -74333,7 +74552,8 @@
         "section": "III.C.2",
         "score": 0.5583
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-6",
@@ -74695,7 +74915,8 @@
         "section": "III.C.2",
         "score": 0.5087
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-7",
@@ -75027,7 +75248,8 @@
         "section": "X.Z",
         "score": 0.6164
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p67-8",
@@ -75377,7 +75599,8 @@
         "section": "II.E.1",
         "score": 0.6104
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p68-1",
@@ -75691,7 +75914,8 @@
         "section": "II.A.3",
         "score": 0.4979
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p68-2",
@@ -75999,7 +76223,8 @@
         "section": "I.N",
         "score": 0.5843
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p68-3",
@@ -76307,7 +76532,8 @@
         "section": "I.N",
         "score": 0.6085
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p68-4",
@@ -76621,7 +76847,8 @@
         "section": "II.A.3",
         "score": 0.4986
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p68-5",
@@ -76935,7 +77162,8 @@
         "section": "II.C.5",
         "score": 0.5383
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p68-6",
@@ -77267,7 +77495,8 @@
         "section": "X.Z",
         "score": 0.6181
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p69-1",
@@ -77575,7 +77804,8 @@
         "section": "I.P",
         "score": 0.5923
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p69-2",
@@ -77901,7 +78131,8 @@
         "section": "X.Z",
         "score": 0.6341
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p69-3",
@@ -78251,7 +78482,8 @@
         "section": "II.E.4",
         "score": 0.5978
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p69-4",
@@ -78553,7 +78785,8 @@
         "section": "I.P",
         "score": 0.6045
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p70-1",
@@ -78885,7 +79118,8 @@
         "section": "I.L",
         "score": 0.6101
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p70-2",
@@ -79253,7 +79487,8 @@
         "section": "II.E.5",
         "score": 0.6066
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p70-3",
@@ -79627,7 +79862,8 @@
         "section": "III.A.4",
         "score": 0.5623
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p71-1",
@@ -79983,7 +80219,8 @@
         "section": "II.A.4",
         "score": 0.6071
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p71-2",
@@ -80351,7 +80588,8 @@
         "section": "II.C.2",
         "score": 0.523
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p71-3",
@@ -80725,7 +80963,8 @@
         "section": "I.O",
         "score": 0.5644
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p72-1",
@@ -81033,7 +81272,8 @@
         "section": "II.E.5",
         "score": 0.5873
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p73-1",
@@ -81395,7 +81635,8 @@
         "section": "I.N",
         "score": 0.5546
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p73-2",
@@ -81763,7 +82004,8 @@
         "section": "II.H.8",
         "score": 0.5362
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p73-3",
@@ -82065,7 +82307,8 @@
         "section": "II.E.5",
         "score": 0.6006
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p74-1",
@@ -82421,7 +82664,8 @@
         "section": "III.C.2",
         "score": 0.554
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p74-2",
@@ -82783,7 +83027,8 @@
         "section": "III.C.2",
         "score": 0.5129
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p74-3",
@@ -83091,7 +83336,8 @@
         "section": "I.N",
         "score": 0.5799
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-1",
@@ -83459,7 +83705,8 @@
         "section": "II.D.1",
         "score": 0.5709
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-2",
@@ -83791,7 +84038,8 @@
         "section": "I.N.1",
         "score": 0.637
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-3",
@@ -84147,7 +84395,8 @@
         "section": "II.B.1",
         "score": 0.6178
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-4",
@@ -84473,7 +84722,8 @@
         "section": "X.Z",
         "score": 0.6062
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-5",
@@ -84637,7 +84887,8 @@
         "section": "III.D.1",
         "score": 0.656
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-6",
@@ -85005,7 +85256,8 @@
         "section": "V.W.1",
         "score": 0.598
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-7",
@@ -85367,7 +85619,8 @@
         "section": "II.D.1",
         "score": 0.5773
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p75-8",
@@ -85717,7 +85970,8 @@
         "section": "II.C.1",
         "score": 0.6028
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-1",
@@ -86049,7 +86303,8 @@
         "section": "X.Z",
         "score": 0.6222
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-2",
@@ -86297,7 +86552,8 @@
         "section": "III.D.6",
         "score": 0.4788
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-3",
@@ -86665,7 +86921,8 @@
         "section": "II.D.1",
         "score": 0.5895
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-4",
@@ -87027,7 +87284,8 @@
         "section": "III.C.2",
         "score": 0.5087
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-5",
@@ -87395,7 +87653,8 @@
         "section": "II.E.2",
         "score": 0.4772
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-6",
@@ -87565,7 +87824,8 @@
         "section": "III.C.1",
         "score": 0.5962
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-7",
@@ -87921,7 +88181,8 @@
         "section": "III.A.8",
         "score": 0.5435
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-8",
@@ -88265,7 +88526,8 @@
         "section": "II.G.1",
         "score": 0.5277
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p76-9",
@@ -88633,7 +88895,8 @@
         "section": "III.A.4",
         "score": 0.5173
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-1",
@@ -88797,7 +89060,8 @@
         "section": "III.C.1",
         "score": 0.6264
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-2",
@@ -89099,7 +89363,8 @@
         "section": "I",
         "score": 0.612
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-3",
@@ -89359,7 +89624,8 @@
         "section": "II.A.1",
         "score": 0.584
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-4",
@@ -89721,7 +89987,8 @@
         "section": "II.H.7",
         "score": 0.5694
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-5",
@@ -90083,7 +90350,8 @@
         "section": "I.4",
         "score": 0.5522
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-6",
@@ -90433,7 +90701,8 @@
         "section": "I.1",
         "score": 0.5506
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-7",
@@ -90801,7 +91070,8 @@
         "section": "III.D.5",
         "score": 0.5113
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-8",
@@ -91115,7 +91385,8 @@
         "section": "II.A.4",
         "score": 0.5205
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p77-9",
@@ -91453,7 +91724,8 @@
         "section": "I.L",
         "score": 0.638
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p78-1",
@@ -91797,7 +92069,8 @@
         "section": "III.C.2",
         "score": 0.567
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p78-2",
@@ -92129,7 +92402,8 @@
         "section": "III.C.2",
         "score": 0.5754
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p79-1",
@@ -92473,7 +92747,8 @@
         "section": "II.C.1",
         "score": 0.5235
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p79-2",
@@ -92835,7 +93110,8 @@
         "section": "II.E.1",
         "score": 0.6039
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p79-3",
@@ -93179,7 +93455,8 @@
         "section": "II.E.1",
         "score": 0.5996
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p79-4",
@@ -93541,7 +93818,8 @@
         "section": "III.B.6",
         "score": 0.6184
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p79-5",
@@ -93747,7 +94025,8 @@
         "section": "II.F.2",
         "score": 0.5798
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p80-1",
@@ -94091,7 +94370,8 @@
         "section": "II.C.1",
         "score": 0.4587
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p80-2",
@@ -94387,7 +94667,8 @@
         "section": "X.Z",
         "score": 0.5701
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p80-3",
@@ -94689,7 +94970,8 @@
         "section": "X.Z",
         "score": 0.6312
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p80-4",
@@ -95033,7 +95315,8 @@
         "section": "II.C.1",
         "score": 0.4702
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p82-1",
@@ -95389,7 +95672,8 @@
         "section": "II.E.1",
         "score": 0.5793
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p83-1",
@@ -95757,7 +96041,8 @@
         "section": "II.H.8",
         "score": 0.5448
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p83-2",
@@ -96059,7 +96344,8 @@
         "section": "I.J",
         "score": 0.5087
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p83-3",
@@ -96421,7 +96707,8 @@
         "section": "II.E.1",
         "score": 0.62
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p83-4",
@@ -96777,7 +97064,8 @@
         "section": "II.E.4",
         "score": 0.597
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p83-5",
@@ -97145,7 +97433,8 @@
         "section": "III.C.2",
         "score": 0.5157
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p84-1",
@@ -97519,7 +97808,8 @@
         "section": "III.A.3",
         "score": 0.5136
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p84-2",
@@ -97887,7 +98177,8 @@
         "section": "II.E.5",
         "score": 0.5638
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p85-1",
@@ -98195,7 +98486,8 @@
         "section": "I.N",
         "score": 0.6044
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p86-1",
@@ -98503,7 +98795,8 @@
         "section": "II.E.5",
         "score": 0.5829
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p86-2",
@@ -98841,7 +99134,8 @@
         "section": "I.5",
         "score": 0.5923
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p89-1",
@@ -99191,7 +99485,8 @@
         "section": "III.C.2",
         "score": 0.558
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-1",
@@ -99541,7 +99836,8 @@
         "section": "III.C.2",
         "score": 0.5235
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-2",
@@ -99885,7 +100181,8 @@
         "section": "III.C.2",
         "score": 0.5698
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-3",
@@ -100253,7 +100550,8 @@
         "section": "III.A.20",
         "score": 0.5018
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-4",
@@ -100615,7 +100913,8 @@
         "section": "III.C.3",
         "score": 0.5276
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-5",
@@ -100917,7 +101216,8 @@
         "section": "I.N",
         "score": 0.5804
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-6",
@@ -101285,7 +101585,8 @@
         "section": "II.D.6",
         "score": 0.4992
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-7",
@@ -101635,7 +101936,8 @@
         "section": "III.C.2",
         "score": 0.5666
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p90-8",
@@ -102003,7 +102305,8 @@
         "section": "II.C.3",
         "score": 0.5296
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p93-1",
@@ -102371,7 +102674,8 @@
         "section": "II.E.1",
         "score": 0.6249
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p93-2",
@@ -102721,7 +103025,8 @@
         "section": "III.C.2",
         "score": 0.5797
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p93-3",
@@ -103071,7 +103376,8 @@
         "section": "III.C.2",
         "score": 0.5724
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p93-4",
@@ -103433,7 +103739,8 @@
         "section": "I.J.2",
         "score": 0.5491
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-1",
@@ -103789,7 +104096,8 @@
         "section": "III.C.2",
         "score": 0.5913
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-2",
@@ -104139,7 +104447,8 @@
         "section": "III.C.2",
         "score": 0.5699
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-3",
@@ -104501,7 +104810,8 @@
         "section": "III.C.2",
         "score": 0.5498
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-4",
@@ -104857,7 +105167,8 @@
         "section": "III.C.2",
         "score": 0.5982
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-5",
@@ -105225,7 +105536,8 @@
         "section": "III.B.10",
         "score": 0.6163
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-6",
@@ -105593,7 +105905,8 @@
         "section": "II.C",
         "score": 0.5434
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-7",
@@ -105955,7 +106268,8 @@
         "section": "II.F.24",
         "score": 0.5043
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-8",
@@ -106311,7 +106625,8 @@
         "section": "II.H.3",
         "score": 0.5079
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p94-9",
@@ -106661,7 +106976,8 @@
         "section": "III.E.6",
         "score": 0.6375
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p95-1",
@@ -107029,7 +107345,8 @@
         "section": "II.F.20",
         "score": 0.5159
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p95-2",
@@ -107211,7 +107528,8 @@
         "section": "II.F.1",
         "score": 0.5723
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p95-3",
@@ -107579,7 +107897,8 @@
         "section": "X.Y",
         "score": 0.572
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p95-4",
@@ -107947,7 +108266,8 @@
         "section": "I.J.2",
         "score": 0.498
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p95-5",
@@ -108285,7 +108605,8 @@
         "section": "X.Z",
         "score": 0.6198
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p95-6",
@@ -108617,7 +108938,8 @@
         "section": "I.Q",
         "score": 0.6013
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p96-1",
@@ -108769,7 +109091,8 @@
         "section": "III.B",
         "score": 0.6099
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p96-2",
@@ -109113,7 +109436,8 @@
         "section": "III.C.2",
         "score": 0.5608
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p96-3",
@@ -109475,7 +109799,8 @@
         "section": "II.E.1",
         "score": 0.5925
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-1",
@@ -109819,7 +110144,8 @@
         "section": "III.C.2",
         "score": 0.5436
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-2",
@@ -110187,7 +110513,8 @@
         "section": "II.F.1",
         "score": 0.5113
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-3",
@@ -110495,7 +110822,8 @@
         "section": "X.Z",
         "score": 0.6096
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-4",
@@ -110647,7 +110975,8 @@
         "section": "III.B",
         "score": 0.6047
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-5",
@@ -110997,7 +111326,8 @@
         "section": "II.B.2",
         "score": 0.6072
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-6",
@@ -111275,7 +111605,8 @@
         "section": "III.A.5",
         "score": 0.5014
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-7",
@@ -111421,7 +111752,8 @@
         "section": "II.C.1",
         "score": 0.6572
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p97-8",
@@ -111573,7 +111905,8 @@
         "section": "II.C.1",
         "score": 0.6235
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-1",
@@ -111929,7 +112262,8 @@
         "section": "I.J.5",
         "score": 0.5663
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-2",
@@ -112279,7 +112613,8 @@
         "section": "III.E.2",
         "score": 0.5379
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-3",
@@ -112641,7 +112976,8 @@
         "section": "I.J.5",
         "score": 0.589
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-4",
@@ -113003,7 +113339,8 @@
         "section": "I.J.5",
         "score": 0.5825
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-5",
@@ -113155,7 +113492,8 @@
         "section": "II.C.1",
         "score": 0.6352
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-6",
@@ -113511,7 +113849,8 @@
         "section": "III.B.6",
         "score": 0.5792
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-7",
@@ -113867,7 +114206,8 @@
         "section": "III.C.2",
         "score": 0.5881
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p98-8",
@@ -114181,7 +114521,8 @@
         "section": "II.C.5",
         "score": 0.5534
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p99-1",
@@ -114549,7 +114890,8 @@
         "section": "III.E.2",
         "score": 0.578
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p99-2",
@@ -114911,7 +115253,8 @@
         "section": "III.C.2",
         "score": 0.5644
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p99-3",
@@ -115237,7 +115580,8 @@
         "section": "X.Z",
         "score": 0.6235
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p99-4",
@@ -115551,7 +115895,8 @@
         "section": "X.Z",
         "score": 0.6454
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-1",
@@ -115913,7 +116258,8 @@
         "section": "II.E.1",
         "score": 0.623
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-2",
@@ -116281,7 +116627,8 @@
         "section": "II.E.2",
         "score": 0.604
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-3",
@@ -116607,7 +116954,8 @@
         "section": "I.O",
         "score": 0.5446
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-4",
@@ -116963,7 +117311,8 @@
         "section": "III.C.2",
         "score": 0.5558
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-5",
@@ -117325,7 +117674,8 @@
         "section": "II.E.1",
         "score": 0.6257
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-6",
@@ -117591,7 +117941,8 @@
         "section": "III.D.1",
         "score": 0.5393
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-7",
@@ -117905,7 +118256,8 @@
         "section": "I.K",
         "score": 0.6205
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p100-8",
@@ -118273,7 +118625,8 @@
         "section": "II.D.1",
         "score": 0.5803
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-1",
@@ -118635,7 +118988,8 @@
         "section": "II.E.1",
         "score": 0.607
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-2",
@@ -119003,7 +119357,8 @@
         "section": "III.C.2",
         "score": 0.5709
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-3",
@@ -119365,7 +119720,8 @@
         "section": "III.C.2",
         "score": 0.5784
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-4",
@@ -119679,7 +120035,8 @@
         "section": "X.Z",
         "score": 0.6038
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-5",
@@ -120035,7 +120392,8 @@
         "section": "III.C.2",
         "score": 0.5968
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-6",
@@ -120397,7 +120755,8 @@
         "section": "II.E.3",
         "score": 0.594
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-7",
@@ -120723,7 +121082,8 @@
         "section": "X.Z",
         "score": 0.5943
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-8",
@@ -121067,7 +121427,8 @@
         "section": "III.C.2",
         "score": 0.5753
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p101-9",
@@ -121423,7 +121784,8 @@
         "section": "III.B.5",
         "score": 0.5958
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p102-1",
@@ -121797,7 +122159,8 @@
         "section": "I.J.2",
         "score": 0.5
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p102-2",
@@ -122165,7 +122528,8 @@
         "section": "II.E.2",
         "score": 0.5883
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p103-1",
@@ -122521,7 +122885,8 @@
         "section": "III.B.6",
         "score": 0.5927
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p103-2",
@@ -122835,7 +123200,8 @@
         "section": "X.Z",
         "score": 0.6085
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p103-3",
@@ -123149,7 +123515,8 @@
         "section": "X.Z",
         "score": 0.6144
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p103-4",
@@ -123475,7 +123842,8 @@
         "section": "I.N",
         "score": 0.6246
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p103-5",
@@ -123849,7 +124217,8 @@
         "section": "II.F.1",
         "score": 0.574
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p103-6",
@@ -124169,7 +124538,8 @@
         "section": "I.K",
         "score": 0.5705
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p104-1",
@@ -124525,7 +124895,8 @@
         "section": "II.E.3",
         "score": 0.5783
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p104-2",
@@ -124671,7 +125042,8 @@
         "section": "III.A.6",
         "score": 0.5816
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p104-3",
@@ -125039,7 +125411,8 @@
         "section": "III.B.2",
         "score": 0.5386
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p104-4",
@@ -125395,7 +125768,8 @@
         "section": "II.E.3",
         "score": 0.5941
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p105-1",
@@ -125751,7 +126125,8 @@
         "section": "II.E.1",
         "score": 0.5948
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p105-2",
@@ -126107,7 +126482,8 @@
         "section": "II.E.1",
         "score": 0.5936
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p105-3",
@@ -126469,7 +126845,8 @@
         "section": "III.C.2",
         "score": 0.5397
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p105-4",
@@ -126825,7 +127202,8 @@
         "section": "III.C.2",
         "score": 0.5409
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p105-5",
@@ -127175,7 +127553,8 @@
         "section": "III.C.2",
         "score": 0.5069
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p106-1",
@@ -127525,7 +127904,8 @@
         "section": "II.E.3",
         "score": 0.5872
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p108-1",
@@ -127881,7 +128261,8 @@
         "section": "III.C.2",
         "score": 0.5296
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p109-1",
@@ -128027,7 +128408,8 @@
         "section": "II.C.3",
         "score": 0.616
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p109-2",
@@ -128389,7 +128771,8 @@
         "section": "III.B.10",
         "score": 0.5482
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p109-3",
@@ -128745,7 +129128,8 @@
         "section": "II.E.1",
         "score": 0.5806
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p109-4",
@@ -129101,7 +129485,8 @@
         "section": "III.B.10",
         "score": 0.6242
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p109-5",
@@ -129451,7 +129836,8 @@
         "section": "II.E.4",
         "score": 0.5801
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p110-1",
@@ -129789,7 +130175,8 @@
         "section": "X.Z",
         "score": 0.6333
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p110-2",
@@ -130115,7 +130502,8 @@
         "section": "X.Z",
         "score": 0.6103
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p110-3",
@@ -130477,7 +130865,8 @@
         "section": "III.C.2",
         "score": 0.5843
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p110-4",
@@ -130803,7 +131192,8 @@
         "section": "X.Z",
         "score": 0.6083
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p110-5",
@@ -131159,7 +131549,8 @@
         "section": "I.J.2",
         "score": 0.528
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-1",
@@ -131521,7 +131912,8 @@
         "section": "II.E.4",
         "score": 0.5996
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-2",
@@ -131877,7 +132269,8 @@
         "section": "II.E.4",
         "score": 0.584
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-3",
@@ -132227,7 +132620,8 @@
         "section": "III.B.5",
         "score": 0.5781
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-4",
@@ -132553,7 +132947,8 @@
         "section": "I.J",
         "score": 0.6214
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-5",
@@ -132915,7 +133310,8 @@
         "section": "III.B.6",
         "score": 0.6366
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-6",
@@ -133277,7 +133673,8 @@
         "section": "II.E.4",
         "score": 0.6423
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p111-7",
@@ -133579,7 +133976,8 @@
         "section": "X.Z",
         "score": 0.568
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-1",
@@ -133935,7 +134333,8 @@
         "section": "III.C.2",
         "score": 0.5965
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-2",
@@ -134273,7 +134672,8 @@
         "section": "III.C.2",
         "score": 0.5408
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-3",
@@ -134599,7 +134999,8 @@
         "section": "X.Z",
         "score": 0.6245
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-4",
@@ -134973,7 +135374,8 @@
         "section": "III.A.20",
         "score": 0.5444
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-5",
@@ -135185,7 +135587,8 @@
         "section": "I.J",
         "score": 0.66
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-6",
@@ -135547,7 +135950,8 @@
         "section": "III.C.2",
         "score": 0.5337
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-7",
@@ -135903,7 +136307,8 @@
         "section": "III.C.2",
         "score": 0.619
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-8",
@@ -136259,7 +136664,8 @@
         "section": "III.B.11",
         "score": 0.6448
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p112-9",
@@ -136561,7 +136967,8 @@
         "section": "X.Z",
         "score": 0.6126
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-1",
@@ -136875,7 +137282,8 @@
         "section": "II.A.3",
         "score": 0.4953
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-2",
@@ -137225,7 +137633,8 @@
         "section": "III.C.2",
         "score": 0.5721
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-3",
@@ -137551,7 +137960,8 @@
         "section": "X.Z",
         "score": 0.6227
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-4",
@@ -137907,7 +138317,8 @@
         "section": "III.C.2",
         "score": 0.5853
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-5",
@@ -138275,7 +138686,8 @@
         "section": "II.E.4",
         "score": 0.5954
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-6",
@@ -138649,7 +139061,8 @@
         "section": "III.A.3",
         "score": 0.5647
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-7",
@@ -138999,7 +139412,8 @@
         "section": "III.C.2",
         "score": 0.622
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-8",
@@ -139319,7 +139733,8 @@
         "section": "I.Q",
         "score": 0.6344
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p113-9",
@@ -139675,7 +140090,8 @@
         "section": "II.E.1",
         "score": 0.6249
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p114-1",
@@ -140001,7 +140417,8 @@
         "section": "X.Z",
         "score": 0.6364
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p114-2",
@@ -140351,7 +140768,8 @@
         "section": "III.B.5",
         "score": 0.5837
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p114-3",
@@ -140683,7 +141101,8 @@
         "section": "I.N",
         "score": 0.6361
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p114-4",
@@ -141039,7 +141458,8 @@
         "section": "II.E.3",
         "score": 0.6194
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p115-1",
@@ -141341,7 +141761,8 @@
         "section": "X.Z",
         "score": 0.6032
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p115-2",
@@ -141649,7 +142070,8 @@
         "section": "I.K",
         "score": 0.6053
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p115-3",
@@ -141945,7 +142367,8 @@
         "section": "X.Z",
         "score": 0.613
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p116-1",
@@ -142247,7 +142670,8 @@
         "section": "X.Z",
         "score": 0.568
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p116-2",
@@ -142549,7 +142973,8 @@
         "section": "X.Z",
         "score": 0.5784
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p116-3",
@@ -142857,7 +143282,8 @@
         "section": "X.Z",
         "score": 0.5992
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p116-4",
@@ -143165,7 +143591,8 @@
         "section": "X.Z",
         "score": 0.5926
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p116-5",
@@ -143539,7 +143966,8 @@
         "section": "III.A.2",
         "score": 0.594
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p116-6",
@@ -143829,7 +144257,8 @@
         "section": "I.Q",
         "score": 0.5918
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-1",
@@ -144161,7 +144590,8 @@
         "section": "I.K",
         "score": 0.5663
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-2",
@@ -144523,7 +144953,8 @@
         "section": "III.B.5",
         "score": 0.6207
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-3",
@@ -144885,7 +145316,8 @@
         "section": "I.N",
         "score": 0.5478
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-4",
@@ -145241,7 +145673,8 @@
         "section": "III.C.2",
         "score": 0.6014
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-5",
@@ -145585,7 +146018,8 @@
         "section": "III.C.2",
         "score": 0.6037
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-6",
@@ -145917,7 +146351,8 @@
         "section": "II.B.2",
         "score": 0.6382
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-7",
@@ -146261,7 +146696,8 @@
         "section": "III.C.2",
         "score": 0.6175
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-8",
@@ -146599,7 +147035,8 @@
         "section": "II.B.2",
         "score": 0.6005
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-9",
@@ -146943,7 +147380,8 @@
         "section": "III.C.2",
         "score": 0.6235
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-10",
@@ -147311,7 +147749,8 @@
         "section": "I.N",
         "score": 0.6081
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-11",
@@ -147655,7 +148094,8 @@
         "section": "II.B.2",
         "score": 0.6284
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-12",
@@ -147987,7 +148427,8 @@
         "section": "III.B.5",
         "score": 0.6059
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-13",
@@ -148241,7 +148682,8 @@
         "section": "III.E.3",
         "score": 0.5899
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-14",
@@ -148597,7 +149039,8 @@
         "section": "III.B.5",
         "score": 0.6194
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p117-15",
@@ -148965,7 +149408,8 @@
         "section": "III.B.5",
         "score": 0.634
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-1",
@@ -149327,7 +149771,8 @@
         "section": "III.C.2",
         "score": 0.6161
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-2",
@@ -149695,7 +150140,8 @@
         "section": "III.C.2",
         "score": 0.6177
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-3",
@@ -150063,7 +150509,8 @@
         "section": "III.B.6",
         "score": 0.5699
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-4",
@@ -150419,7 +150866,8 @@
         "section": "III.C.2",
         "score": 0.524
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-5",
@@ -150787,7 +151235,8 @@
         "section": "III.B.6",
         "score": 0.5699
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-6",
@@ -151125,7 +151574,8 @@
         "section": "III.C.2",
         "score": 0.5564
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-7",
@@ -151451,7 +151901,8 @@
         "section": "III.C.2",
         "score": 0.5594
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p118-8",
@@ -151819,7 +152270,8 @@
         "section": "III.D",
         "score": 0.5597
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p119-1",
@@ -152181,7 +152633,8 @@
         "section": "III.B.6",
         "score": 0.6093
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p119-2",
@@ -152531,7 +152984,8 @@
         "section": "III.C.2",
         "score": 0.5707
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p119-3",
@@ -152791,7 +153245,8 @@
         "section": "II.B.1",
         "score": 0.5286
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p119-4",
@@ -153021,7 +153476,8 @@
         "section": "III.A.5",
         "score": 0.5593
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p119-5",
@@ -153359,7 +153815,8 @@
         "section": "III.C.2",
         "score": 0.5699
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p119-6",
@@ -153709,7 +154166,8 @@
         "section": "III.C.2",
         "score": 0.5276
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-1",
@@ -154029,7 +154487,8 @@
         "section": "II.A.7",
         "score": 0.5434
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-2",
@@ -154403,7 +154862,8 @@
         "section": "I.J.5",
         "score": 0.4999
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-3",
@@ -154777,7 +155237,8 @@
         "section": "I.4",
         "score": 0.5197
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-4",
@@ -155121,7 +155582,8 @@
         "section": "III.C.2",
         "score": 0.5666
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-5",
@@ -155447,7 +155909,8 @@
         "section": "III.C.2",
         "score": 0.5399
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-6",
@@ -155821,7 +156284,8 @@
         "section": "I.J.2",
         "score": 0.488
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-7",
@@ -156195,7 +156659,8 @@
         "section": "I.J.2",
         "score": 0.5182
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p120-8",
@@ -156563,7 +157028,8 @@
         "section": "I.O",
         "score": 0.5838
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p121-1",
@@ -156931,7 +157397,8 @@
         "section": "III.B.1",
         "score": 0.5557
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p121-2",
@@ -157305,7 +157772,8 @@
         "section": "I.J.2",
         "score": 0.4964
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p121-3",
@@ -157673,7 +158141,8 @@
         "section": "II.D.1",
         "score": 0.6118
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-1",
@@ -158035,7 +158504,8 @@
         "section": "III.C.2",
         "score": 0.5874
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-2",
@@ -158187,7 +158657,8 @@
         "section": "II.C.3",
         "score": 0.6517
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-3",
@@ -158333,7 +158804,8 @@
         "section": "II.C.3",
         "score": 0.6339
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-4",
@@ -158701,7 +159173,8 @@
         "section": "III.B.10",
         "score": 0.573
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-5",
@@ -159051,7 +159524,8 @@
         "section": "III.C.2",
         "score": 0.6111
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-6",
@@ -159419,7 +159893,8 @@
         "section": "I.T.4",
         "score": 0.5356
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p122-7",
@@ -159703,7 +160178,8 @@
         "section": "II.H",
         "score": 0.5812
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p123-1",
@@ -160071,7 +160547,8 @@
         "section": "II.C.8",
         "score": 0.5388
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p123-2",
@@ -160439,7 +160916,8 @@
         "section": "II.C.8",
         "score": 0.5504
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p123-3",
@@ -160813,7 +161291,8 @@
         "section": "II.F.2",
         "score": 0.5436
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p123-4",
@@ -161181,7 +161660,8 @@
         "section": "II.B.2",
         "score": 0.5655
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p123-5",
@@ -161543,7 +162023,8 @@
         "section": "III.C.2",
         "score": 0.5991
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p123-6",
@@ -161911,7 +162392,8 @@
         "section": "I.T.4",
         "score": 0.5094
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p124-1",
@@ -162285,7 +162767,8 @@
         "section": "II.A.16",
         "score": 0.5783
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p124-2",
@@ -162623,7 +163106,8 @@
         "section": "III.C.2",
         "score": 0.5956
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p125-1",
@@ -162991,7 +163475,8 @@
         "section": "III.C.2",
         "score": 0.5539
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p125-2",
@@ -163353,7 +163838,8 @@
         "section": "III.C.7",
         "score": 0.5571
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p126-1",
@@ -163721,7 +164207,8 @@
         "section": "III.C.2",
         "score": 0.5519
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p126-2",
@@ -164089,7 +164576,8 @@
         "section": "III.C.7",
         "score": 0.5511
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p127-1",
@@ -164451,7 +164939,8 @@
         "section": "I.R.1",
         "score": 0.5387
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p127-2",
@@ -164825,7 +165314,8 @@
         "section": "II.2",
         "score": 0.5663
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p127-3",
@@ -165181,7 +165671,8 @@
         "section": "I.R.1",
         "score": 0.5589
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p129-1",
@@ -165537,7 +166028,8 @@
         "section": "I.P",
         "score": 0.5415
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p129-2",
@@ -165899,7 +166391,8 @@
         "section": "I.K.5",
         "score": 0.6076
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p129-3",
@@ -166267,7 +166760,8 @@
         "section": "II.D",
         "score": 0.5849
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p129-4",
@@ -166635,7 +167129,8 @@
         "section": "III.A.2",
         "score": 0.5201
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p138-1",
@@ -166997,7 +167492,8 @@
         "section": "II.E.4",
         "score": 0.6136
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p138-2",
@@ -167203,7 +167699,8 @@
         "section": "II.E.2",
         "score": 0.5908
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p138-3",
@@ -167547,7 +168044,8 @@
         "section": "II.C.1",
         "score": 0.4772
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p138-4",
@@ -167921,7 +168419,8 @@
         "section": "II.4",
         "score": 0.5212
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p139-1",
@@ -168127,7 +168626,8 @@
         "section": "II.E.2",
         "score": 0.5822
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p139-2",
@@ -168471,7 +168971,8 @@
         "section": "II.C.1",
         "score": 0.4647
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p139-3",
@@ -168845,7 +169346,8 @@
         "section": "II.4",
         "score": 0.5237
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p140-1",
@@ -169201,7 +169703,8 @@
         "section": "III.C.2",
         "score": 0.5532
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p140-2",
@@ -169539,7 +170042,8 @@
         "section": "II.A.1",
         "score": 0.5223
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p141-1",
@@ -169889,7 +170393,8 @@
         "section": "III.C.2",
         "score": 0.5636
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p141-2",
@@ -170203,7 +170708,8 @@
         "section": "II.A.3",
         "score": 0.5239
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p141-3",
@@ -170541,7 +171047,8 @@
         "section": "II.A.1",
         "score": 0.5321
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p142-1",
@@ -170897,7 +171404,8 @@
         "section": "III.C.2",
         "score": 0.5532
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p142-2",
@@ -171211,7 +171719,8 @@
         "section": "II.A.3",
         "score": 0.5134
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p143-1",
@@ -171549,7 +172058,8 @@
         "section": "II.A.1",
         "score": 0.5223
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p143-2",
@@ -171899,7 +172409,8 @@
         "section": "III.C.2",
         "score": 0.5798
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p143-3",
@@ -172267,7 +172778,8 @@
         "section": "II.E.4",
         "score": 0.6235
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p143-4",
@@ -172635,7 +173147,8 @@
         "section": "III.C.7",
         "score": 0.5545
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p144-1",
@@ -172841,7 +173354,8 @@
         "section": "I.J",
         "score": 0.56
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p144-2",
@@ -173047,7 +173561,8 @@
         "section": "II.E.2",
         "score": 0.5791
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p144-3",
@@ -173391,7 +173906,8 @@
         "section": "II.C.1",
         "score": 0.4647
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p144-4",
@@ -173765,7 +174281,8 @@
         "section": "II.1",
         "score": 0.521
       }
-    ]
+    ],
+    "citationVerified": true
   },
   {
     "obligationId": "ECM-p145-1",
@@ -174139,6 +174656,7 @@
         "section": "III.A.4",
         "score": 0.4877
       }
-    ]
+    ],
+    "citationVerified": true
   }
 ]

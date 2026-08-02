@@ -17,17 +17,57 @@ export interface MatchCandidate {
   score: number;
 }
 
-export interface Match {
+export type Verdict = "supports" | "partial" | "contradicts" | "gap" | "error";
+
+// Normalized shape shared by both the ECM-obligation matches and the
+// questionnaire matches - they're structurally identical (a statement
+// checked against P&P coverage) once the source-specific id/text field
+// names are mapped onto a common "id"/"statement".
+export interface MatchItem {
+  id: string;
+  doc: string;
+  docTitle: string;
+  page: number;
+  statement: string;
+  reference?: string; // questionnaire only: the APL citation, e.g. "APL 25-008, page 1"
+  verdict: Verdict;
+  matchedChunkId: string | null;
+  matchedDoc: string | null;
+  matchedSection: string | null;
+  explanation: string;
+  citationVerified: boolean | null;
+  candidates: MatchCandidate[];
+}
+
+interface RawEcmMatch {
   obligationId: string;
   doc: string;
   docTitle: string;
   page: number;
   obligation: string;
-  verdict: "supports" | "partial" | "contradicts" | "gap" | "error";
+  verdict: Verdict;
   matchedChunkId: string | null;
   matchedDoc: string | null;
   matchedSection: string | null;
   explanation: string;
+  citationVerified: boolean | null;
+  candidates: MatchCandidate[];
+}
+
+interface RawQuestionMatch {
+  questionId: string;
+  doc: string;
+  docTitle: string;
+  page: number;
+  number: number;
+  question: string;
+  reference: string | null;
+  verdict: Verdict;
+  matchedChunkId: string | null;
+  matchedDoc: string | null;
+  matchedSection: string | null;
+  explanation: string;
+  citationVerified: boolean | null;
   candidates: MatchCandidate[];
 }
 
@@ -50,11 +90,49 @@ export function getPpChunk(chunkId: string): PpChunk | undefined {
   return getPpChunkIndex().get(chunkId);
 }
 
-let matches: Match[] | null = null;
-export function getMatches(): Match[] {
-  if (!matches) {
+let ecmMatches: MatchItem[] | null = null;
+export function getEcmMatches(): MatchItem[] {
+  if (!ecmMatches) {
     const raw = fs.readFileSync(path.join(DATA_DIR, "ecm_guide", "matches.json"), "utf-8");
-    matches = JSON.parse(raw);
+    const parsed: RawEcmMatch[] = JSON.parse(raw);
+    ecmMatches = parsed.map((m) => ({
+      id: m.obligationId,
+      doc: m.doc,
+      docTitle: m.docTitle,
+      page: m.page,
+      statement: m.obligation,
+      verdict: m.verdict,
+      matchedChunkId: m.matchedChunkId,
+      matchedDoc: m.matchedDoc,
+      matchedSection: m.matchedSection,
+      explanation: m.explanation,
+      citationVerified: m.citationVerified ?? null,
+      candidates: m.candidates,
+    }));
   }
-  return matches!;
+  return ecmMatches;
+}
+
+let questionnaireMatches: MatchItem[] | null = null;
+export function getQuestionnaireMatches(): MatchItem[] {
+  if (!questionnaireMatches) {
+    const raw = fs.readFileSync(path.join(DATA_DIR, "questionnaire", "matches.json"), "utf-8");
+    const parsed: RawQuestionMatch[] = JSON.parse(raw);
+    questionnaireMatches = parsed.map((m) => ({
+      id: m.questionId,
+      doc: m.doc,
+      docTitle: m.docTitle,
+      page: m.page,
+      statement: m.question,
+      reference: m.reference ?? undefined,
+      verdict: m.verdict,
+      matchedChunkId: m.matchedChunkId,
+      matchedDoc: m.matchedDoc,
+      matchedSection: m.matchedSection,
+      explanation: m.explanation,
+      citationVerified: m.citationVerified ?? null,
+      candidates: m.candidates,
+    }));
+  }
+  return questionnaireMatches;
 }
