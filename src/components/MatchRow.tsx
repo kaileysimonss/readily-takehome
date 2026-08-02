@@ -13,6 +13,8 @@ export default function MatchRow({
   onSelectCandidate,
   selectedChunkId,
   loadingChunkId,
+  isResolved,
+  onToggleResolved,
 }: {
   item: MatchItem;
   isExpanded: boolean;
@@ -20,13 +22,15 @@ export default function MatchRow({
   onSelectCandidate: (chunkId: string) => void;
   selectedChunkId: string | null;
   loadingChunkId: string | null;
+  isResolved: boolean;
+  onToggleResolved: () => void;
 }) {
   const [showAll, setShowAll] = useState(false);
   const verdict = VERDICT_CONFIG[item.verdict as Verdict] ?? VERDICT_CONFIG.error;
   const visible = showAll ? item.candidates : item.candidates.slice(0, VISIBLE_CANDIDATES);
 
   return (
-    <div className="border-b border-zinc-100">
+    <div className={`border-b border-zinc-100 ${isResolved ? "bg-zinc-50/60" : ""}`}>
       <button
         onClick={onToggle}
         className="flex w-full items-start gap-3 px-4 py-3 text-left transition hover:bg-zinc-50"
@@ -35,7 +39,17 @@ export default function MatchRow({
           className={`mt-1.5 inline-block h-2 w-2 shrink-0 rounded-full ${verdict.dot}`}
           aria-hidden
         />
-        <span className="flex-1 text-sm text-zinc-800">{item.statement}</span>
+        <span className="flex-1 text-sm text-zinc-800">
+          {item.number != null && (
+            <span className="mr-1.5 font-semibold text-zinc-400">{`Q${item.number}.`}</span>
+          )}
+          {item.statement}
+        </span>
+        {isResolved && (
+          <span className="mt-0.5 shrink-0 rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/20">
+            ✓ Resolved
+          </span>
+        )}
         {item.citationVerified === false && (
           <span
             className="mt-0.5 shrink-0 text-amber-500"
@@ -53,6 +67,17 @@ export default function MatchRow({
 
       {isExpanded && (
         <div className="bg-zinc-50 px-4 pb-4 pl-9">
+          <button
+            onClick={onToggleResolved}
+            className={`mb-3 rounded-md px-2.5 py-1 text-xs font-medium ring-1 ring-inset transition ${
+              isResolved
+                ? "bg-white text-zinc-600 ring-zinc-200 hover:ring-zinc-400"
+                : "bg-emerald-600 text-white ring-emerald-600 hover:bg-emerald-700"
+            }`}
+          >
+            {isResolved ? "Unresolve" : "Mark Resolved"}
+          </button>
+
           <p className="mb-3 text-xs text-zinc-500">
             <span className="font-medium text-zinc-600">Why: </span>
             {item.explanation}

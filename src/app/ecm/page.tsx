@@ -10,6 +10,7 @@ export default function EcmPage() {
       unitLabelSingular="obligation"
       unitLabelPlural="obligations"
       sourceLabel="the ECM Policy Guide"
+      storageKey="ecm"
     />
   );
 }

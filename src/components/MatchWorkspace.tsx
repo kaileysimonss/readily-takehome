@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { MatchItem } from "@/lib/data";
 import MatchRow from "./MatchRow";
@@ -10,6 +10,11 @@ import Overview from "./Overview";
 import { VERDICT_CONFIG, VERDICT_ORDER, Verdict } from "@/lib/verdict";
 
 type FilterValue = "all" | Verdict;
+type ResolutionTab = "unresolved" | "resolved" | "all";
+
+function resolvedStorageKey(storageKey: string) {
+  return `readily-resolved-${storageKey}`;
+}
 
 export default function MatchWorkspace({
   items,
@@ -17,30 +22,73 @@ export default function MatchWorkspace({
   unitLabelSingular,
   unitLabelPlural,
   sourceLabel,
+  storageKey,
 }: {
   items: MatchItem[];
   title: string;
   unitLabelSingular: string;
   unitLabelPlural: string;
   sourceLabel: string;
+  storageKey: string;
 }) {
   const [hasRun, setHasRun] = useState(false);
   const [isRunning, setIsRunning] = useState(false);
   const [filter, setFilter] = useState<FilterValue>("all");
+  const [resolutionTab, setResolutionTab] = useState<ResolutionTab>("unresolved");
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [selectedClaim, setSelectedClaim] = useState<SelectedClaim | null>(null);
   const [loadingChunkId, setLoadingChunkId] = useState<string | null>(null);
   const [chunkCache, setChunkCache] = useState<Record<string, SelectedClaim>>({});
+  const [resolvedIds, setResolvedIds] = useState<Set<string>>(new Set());
+
+  // Load resolved state from localStorage on mount, per-screen.
+  useEffect(() => {
+    try {
+      const raw = window.localStorage.getItem(resolvedStorageKey(storageKey));
+      if (raw) setResolvedIds(new Set(JSON.parse(raw)));
+    } catch {
+      // localStorage unavailable (private browsing, etc.) - just start empty
+    }
+  }, [storageKey]);
+
+  function toggleResolved(id: string) {
+    setResolvedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      try {
+        window.localStorage.setItem(resolvedStorageKey(storageKey), JSON.stringify([...next]));
+      } catch {
+        // ignore write failures
+      }
+      return next;
+    });
+  }
+
+  const resolutionCounts = useMemo(
+    () => ({
+      unresolved: items.filter((m) => !resolvedIds.has(m.id)).length,
+      resolved: items.filter((m) => resolvedIds.has(m.id)).length,
+      all: items.length,
+    }),
+    [items, resolvedIds]
+  );
+
+  const inResolutionTab = useMemo(() => {
+    if (resolutionTab === "unresolved") return items.filter((m) => !resolvedIds.has(m.id));
+    if (resolutionTab === "resolved") return items.filter((m) => resolvedIds.has(m.id));
+    return items;
+  }, [items, resolutionTab, resolvedIds]);
 
   const counts = useMemo(() => {
-    const c: Record<string, number> = { all: items.length };
-    for (const m of items) c[m.verdict] = (c[m.verdict] ?? 0) + 1;
+    const c: Record<string, number> = { all: inResolutionTab.length };
+    for (const m of inResolutionTab) c[m.verdict] = (c[m.verdict] ?? 0) + 1;
     return c;
-  }, [items]);
+  }, [inResolutionTab]);
 
   const filtered = useMemo(
-    () => (filter === "all" ? items : items.filter((m) => m.verdict === filter)),
-    [items, filter]
+    () => (filter === "all" ? inResolutionTab : inResolutionTab.filter((m) => m.verdict === filter)),
+    [inResolutionTab, filter]
   );
 
   const expandedItem = useMemo(
@@ -91,7 +139,10 @@ export default function MatchWorkspace({
           </Link>
           <h1 className="text-sm font-semibold text-zinc-800">{title}</h1>
         </div>
-        <p className="text-xs text-zinc-400">{`${items.length} ${unitLabelPlural} extracted`}</p>
+        <p className="text-xs text-zinc-400">
+          {`${items.length} ${unitLabelPlural} extracted`}
+          {resolutionCounts.resolved > 0 && ` · ${resolutionCounts.resolved} resolved`}
+        </p>
       </header>
 
       <div className="flex min-h-0 flex-1">
@@ -103,7 +154,14 @@ export default function MatchWorkspace({
               backLabel={unitLabelSingular}
             />
           ) : expandedItem ? (
-            <ItemDetail item={expandedItem} />
+            <ItemDetail
+              item={expandedItem}
+              isResolved={resolvedIds.has(expandedItem.id)}
+              onToggleResolved={() => {
+                toggleResolved(expandedItem.id);
+                setExpandedId(null);
+              }}
+            />
           ) : hasRun ? (
             <Overview items={items} unitLabelPlural={unitLabelPlural} />
           ) : (
@@ -128,24 +186,43 @@ export default function MatchWorkspace({
             >
               {isRunning ? "Running…" : hasRun ? "Re-run" : "Run"}
             </button>
+
             {hasRun && !isRunning && (
-              <div className="flex flex-wrap gap-1.5">
-                {(["all", ...VERDICT_ORDER] as FilterValue[]).map((v) => (
+              <nav className="flex gap-4 text-sm">
+                {(["unresolved", "resolved", "all"] as ResolutionTab[]).map((t) => (
                   <button
-                    key={v}
-                    onClick={() => setFilter(v)}
-                    className={`rounded-full px-2.5 py-1 text-xs font-medium ring-1 ring-inset transition ${
-                      filter === v
-                        ? "bg-zinc-900 text-white ring-zinc-900"
-                        : "bg-white text-zinc-600 ring-zinc-200 hover:ring-zinc-400"
+                    key={t}
+                    onClick={() => setResolutionTab(t)}
+                    className={`border-b-2 pb-0.5 font-medium transition ${
+                      resolutionTab === t
+                        ? "border-zinc-900 text-zinc-900"
+                        : "border-transparent text-zinc-400 hover:text-zinc-600"
                     }`}
                   >
-                    {`${v === "all" ? "All" : VERDICT_CONFIG[v].label} ${counts[v] ?? 0}`}
+                    {`${t === "unresolved" ? "Unresolved" : t === "resolved" ? "Resolved" : "All"} (${resolutionCounts[t]})`}
                   </button>
                 ))}
-              </div>
+              </nav>
             )}
           </div>
+
+          {hasRun && !isRunning && (
+            <div className="flex flex-wrap gap-1.5 border-b border-zinc-200 px-4 py-2.5">
+              {(["all", ...VERDICT_ORDER] as FilterValue[]).map((v) => (
+                <button
+                  key={v}
+                  onClick={() => setFilter(v)}
+                  className={`rounded-full px-2.5 py-1 text-xs font-medium ring-1 ring-inset transition ${
+                    filter === v
+                      ? "bg-zinc-900 text-white ring-zinc-900"
+                      : "bg-white text-zinc-600 ring-zinc-200 hover:ring-zinc-400"
+                  }`}
+                >
+                  {`${v === "all" ? "All" : VERDICT_CONFIG[v].label} ${counts[v] ?? 0}`}
+                </button>
+              ))}
+            </div>
+          )}
 
           <div className="min-h-0 flex-1 overflow-y-auto">
             {!hasRun ? (
@@ -153,6 +230,17 @@ export default function MatchWorkspace({
                 <p className="text-sm font-medium">Not started</p>
                 <p className="max-w-xs text-xs">
                   {`Click Run to check every ${unitLabelSingular} extracted from ${sourceLabel} against the plan's P&P documents.`}
+                </p>
+              </div>
+            ) : filtered.length === 0 ? (
+              <div className="flex h-full flex-col items-center justify-center gap-1 text-center text-zinc-400">
+                <p className="text-sm font-medium">Nothing here</p>
+                <p className="max-w-xs text-xs">
+                  {resolutionTab === "unresolved"
+                    ? "Everything matching this filter has been resolved."
+                    : resolutionTab === "resolved"
+                      ? "Nothing matching this filter has been marked resolved yet."
+                      : "No items match this filter."}
                 </p>
               </div>
             ) : (
@@ -165,6 +253,8 @@ export default function MatchWorkspace({
                   onSelectCandidate={selectCandidate}
                   selectedChunkId={selectedClaim?.chunkId ?? null}
                   loadingChunkId={loadingChunkId}
+                  isResolved={resolvedIds.has(m.id)}
+                  onToggleResolved={() => toggleResolved(m.id)}
                 />
               ))
             )}

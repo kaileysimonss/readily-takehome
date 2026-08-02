@@ -29,6 +29,7 @@ export interface MatchItem {
   docTitle: string;
   page: number;
   statement: string;
+  number?: number; // questionnaire only: its position in the Submission Review Form
   reference?: string; // questionnaire only: the APL citation, e.g. "APL 25-008, page 1"
   verdict: Verdict;
   matchedChunkId: string | null;
@@ -124,6 +125,7 @@ export function getQuestionnaireMatches(): MatchItem[] {
       docTitle: m.docTitle,
       page: m.page,
       statement: m.question,
+      number: m.number,
       reference: m.reference ?? undefined,
       verdict: m.verdict,
       matchedChunkId: m.matchedChunkId,
@@ -133,6 +135,7 @@ export function getQuestionnaireMatches(): MatchItem[] {
       citationVerified: m.citationVerified ?? null,
       candidates: m.candidates,
     }));
+    questionnaireMatches.sort((a, b) => (a.number ?? 0) - (b.number ?? 0));
   }
   return questionnaireMatches;
 }

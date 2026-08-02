@@ -3,13 +3,22 @@
 import type { MatchItem } from "@/lib/data";
 import { VERDICT_CONFIG, Verdict } from "@/lib/verdict";
 
-export default function ItemDetail({ item }: { item: MatchItem }) {
+export default function ItemDetail({
+  item,
+  isResolved,
+  onToggleResolved,
+}: {
+  item: MatchItem;
+  isResolved: boolean;
+  onToggleResolved: () => void;
+}) {
   const verdict = VERDICT_CONFIG[item.verdict as Verdict] ?? VERDICT_CONFIG.error;
 
   return (
     <div className="flex h-full flex-col bg-white px-6 py-6">
       <div className="flex flex-wrap items-center gap-2">
         <p className="text-xs font-medium uppercase tracking-wide text-zinc-400">
+          {item.number != null && `Q${item.number} · `}
           {item.doc} · Page {item.page}
         </p>
         <span
@@ -22,6 +31,16 @@ export default function ItemDetail({ item }: { item: MatchItem }) {
             ⚠ Unverified citation
           </span>
         )}
+        <button
+          onClick={onToggleResolved}
+          className={`ml-auto rounded-md px-2.5 py-1 text-xs font-medium ring-1 ring-inset transition ${
+            isResolved
+              ? "bg-white text-zinc-600 ring-zinc-200 hover:ring-zinc-400"
+              : "bg-emerald-600 text-white ring-emerald-600 hover:bg-emerald-700"
+          }`}
+        >
+          {isResolved ? "✓ Resolved — Unresolve" : "Mark Resolved"}
+        </button>
       </div>
 
       <p className="mt-3 text-base font-medium leading-relaxed text-zinc-800">

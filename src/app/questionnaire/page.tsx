@@ -10,6 +10,7 @@ export default function QuestionnairePage() {
       unitLabelSingular="question"
       unitLabelPlural="questions"
       sourceLabel="the DHCS Submission Review Form"
+      storageKey="questionnaire"
     />
   );
 }
