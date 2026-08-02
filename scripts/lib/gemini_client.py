@@ -16,30 +16,46 @@ def normalize(values):
     return [x / norm for x in values] if norm > 0 else values
 
 
-def embed_batch(api_key, texts, dim=768, max_retries=5):
+def embed_batch(api_key, texts, dim=768, max_retries=5, task_type=None):
+    """task_type: e.g. "QUESTION_ANSWERING" for query-side text being matched
+    against passages, or "RETRIEVAL_DOCUMENT" for the passage side. Leave
+    unset for symmetric statement-to-statement matching (e.g. obligation vs.
+    P&P clause, where both sides are similarly-phrased declarative text)."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{EMBED_MODEL}:batchEmbedContents?key={api_key}"
-    body = {
-        "requests": [
-            {
-                "model": f"models/{EMBED_MODEL}",
-                "content": {"parts": [{"text": text}]},
-                "outputDimensionality": dim,
-            }
-            for text in texts
-        ]
-    }
 
+    def request_item(text):
+        item = {
+            "model": f"models/{EMBED_MODEL}",
+            "content": {"parts": [{"text": text}]},
+            "outputDimensionality": dim,
+        }
+        if task_type:
+            item["taskType"] = task_type
+        return item
+
+    body = {"requests": [request_item(text) for text in texts]}
+
+    last_error = None
     for attempt in range(1, max_retries + 1):
-        res = requests.post(url, json=body, timeout=90)
+        try:
+            res = requests.post(url, json=body, timeout=90)
+        except requests.exceptions.RequestException as err:
+            # Network-level failure (timeout, connection reset, etc.) - retry
+            # with backoff same as a 429/500, rather than crashing outright.
+            last_error = err
+            time.sleep(2 ** attempt)
+            continue
+
         if res.ok:
             data = res.json()
             return [normalize(e["values"]) for e in data["embeddings"]]
         if res.status_code == 429 or res.status_code >= 500:
+            last_error = RuntimeError(f"Embedding request failed ({res.status_code}): {res.text}")
             time.sleep(2 ** attempt)
             continue
         raise RuntimeError(f"Embedding request failed ({res.status_code}): {res.text}")
 
-    raise RuntimeError("Embedding request failed after retries")
+    raise RuntimeError(f"Embedding request failed after {max_retries} retries: {last_error}")
 
 
 RESPONSE_SCHEMA = {

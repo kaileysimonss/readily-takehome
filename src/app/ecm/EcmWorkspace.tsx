@@ -95,7 +95,7 @@ export default function EcmWorkspace({ matches }: { matches: Match[] }) {
           ) : (
             <div className="flex h-full flex-col items-center justify-center gap-2 bg-zinc-50 px-8 text-center">
               <p className="text-sm font-medium text-zinc-600">
-                {matches.length} obligations extracted from the ECM Policy Guide
+                {`${matches.length} obligations extracted from the ECM Policy Guide`}
               </p>
               <p className="max-w-xs text-xs text-zinc-400">
                 Click Run to check each one against the plan&apos;s P&amp;P documents. An
@@ -126,7 +126,7 @@ export default function EcmWorkspace({ matches }: { matches: Match[] }) {
                         : "bg-white text-zinc-600 ring-zinc-200 hover:ring-zinc-400"
                     }`}
                   >
-                    {v === "all" ? "All" : VERDICT_CONFIG[v].label} {counts[v] ?? 0}
+                    {`${v === "all" ? "All" : VERDICT_CONFIG[v].label} ${counts[v] ?? 0}`}
                   </button>
                 ))}
               </div>
