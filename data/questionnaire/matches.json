@@ -711,7 +711,7 @@
     "matchedChunkId": "GG.1503-II.F.3",
     "matchedDoc": "GG.1503",
     "matchedSection": "II.F.3",
-    "explanation": "The P&P explicitly states that \"Medi-Cal primary Members may access Hospice Care within twenty-four (24) hours of Notification of Hospice request,\" directly addressing the timely access requirement and the 24-hour timeframe. It further clarifies access by stating that prior authorization is not required for certain levels of Hospice Care.",
+    "explanation": "The P&P explicitly states that \"Medi-Cal primary Members may access Hospice Care within twenty-four (24) hours of Notification of Hospice request,\" directly addressing the timely access requirement and the preferred 24-hour timeframe for hospice care.",
     "citationVerified": true,
     "candidates": [
       {
@@ -1082,7 +1082,7 @@
     "matchedChunkId": "MA.6026-III.D.2",
     "matchedDoc": "MA.6026",
     "matchedSection": "III.D.2",
-    "explanation": "The P&P explicitly states that for 'Medi-Cal Covered Services available in network,' members are referred to contracted providers (MA.6026-III.D.1), and for 'Covered Services not available in network,' members are referred to a Medi-Cal registered provider (MA.6026-III.D.2). In the context of Medi-Cal, 'Covered Services' are understood to be medically necessary and consistent with contractual requirements, directly addressing the obligation's conditions.",
+    "explanation": "The P&P supports the obligation by stating that for Medi-Cal Covered Services available in-network, members shall be referred to contracted providers (MA.6026-III.D.1), and explicitly allows referrals to Medi-Cal registered providers (out-of-network) when Covered Services are not available in-network (MA.6026-III.D.2).",
     "citationVerified": true,
     "candidates": [
       {
@@ -1321,7 +1321,7 @@
     "matchedChunkId": "GG.1503-III.F.8",
     "matchedDoc": "GG.1503",
     "matchedSection": "III.F.8",
-    "explanation": "The P&P explicitly states that \"Medically Necessary Covered Services for conditions not related to a Member\u2019s Terminal Illness that are provided to a Member receiving Hospice Care services shall require the same prior authorizations as required for a Member not receiving Hospice Care services.\" This directly confirms that members on hospice can receive medically necessary services, including curative treatment, for unrelated conditions.",
+    "explanation": "The P&P explicitly states that 'Medically Necessary Covered Services for conditions not related to a Member\u2019s Terminal Illness that are provided to a Member receiving Hospice Care services shall require the same prior authorizations as required for a Member not receiving Hospice Care services.' This directly indicates that members in hospice are entitled to curative treatment for unrelated conditions, subject to standard authorization.",
     "citationVerified": true,
     "candidates": [
       {
@@ -1686,7 +1686,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "No candidate explicitly states that the MCP should seek an agreement (such as a single case agreement or letter of agreement) for out-of-network hospice providers, nor that such agreements require the provider to submit documentation to ensure services are in accordance with coverage policy, including Medical Necessity.",
+    "explanation": "None of the provided P&P excerpts explicitly state that the MCP should seek an agreement for out-of-network hospice providers or that such agreements require documentation for coverage policy and Medical Necessity. The candidates are either definitions, references to APLs, or discuss other aspects of hospice care or general adverse benefit determinations, but do not address the specific requirements of the obligation.",
     "citationVerified": true,
     "candidates": [
       {
@@ -2060,11 +2060,11 @@
     "question": "Does the P&P state that while Prior Authorization for hospice services is restricted, based on the level of care, MCPs are required to review documentation to avoid Fraud, Waste, and Abuse?",
     "reference": "APL 25-008, page 2",
     "verdict": "partial",
-    "matchedChunkId": "GG.1503-II.F.3",
-    "matchedDoc": "GG.1503",
-    "matchedSection": "II.F.3",
-    "explanation": "The P&P explicitly states that prior authorization is not required for Routine Home Care, Continuous Home Care, and Respite Care levels of hospice, but is required for General Inpatient Care, directly addressing the restriction based on level of care. It also requires documentation and validation for these services, which serves to prevent Fraud, Waste, and Abuse, but does not explicitly state 'to avoid Fraud, Waste, and Abuse' as the purpose of this review.",
-    "citationVerified": true,
+    "matchedChunkId": "GG.1503-III.F.3",
+    "matchedDoc": null,
+    "matchedSection": null,
+    "explanation": "The P&P explicitly states that prior authorization is not required for Routine Home Care, Continuous Home Care, and Respite Care, but is required for General Inpatient Care, directly addressing the restriction of PA based on the level of care. However, while it requires documentation to support these levels of care and validate services, it does not explicitly state that this review is specifically 'to avoid Fraud, Waste, and Abuse,' requiring an inference for that part of the obligation.",
+    "citationVerified": false,
     "candidates": [
       {
         "chunkId": "GG.1503-III.F.8",
@@ -2436,11 +2436,11 @@
     "number": 8,
     "question": "Does the P&P state that to avoid possible delays in hospice care services while the MCP processes requests from out-of-Network hospice Providers, MCP P&Ps should clarify and detail how Members may access hospice care services in a timely manner after the MCP confirms qualifications and/or agreement with the out-of-Network hospice Provider, or transfer to an in-Network hospice Provider?",
     "reference": "APL 25-008, page 2",
-    "verdict": "gap",
-    "matchedChunkId": null,
-    "matchedDoc": null,
-    "matchedSection": null,
-    "explanation": "No candidate explicitly clarifies and details how Members may access hospice care services in a timely manner specifically after the MCP confirms qualifications and/or agreement with an out-of-Network hospice Provider, or during a transfer to an in-Network hospice Provider, to avoid possible delays. While GG.1503-II.F.3 mentions timely access generally, it does not address the specific out-of-network or transfer scenarios as required by the obligation.",
+    "verdict": "partial",
+    "matchedChunkId": "GG.1503-II.F.3",
+    "matchedDoc": "GG.1503",
+    "matchedSection": "II.F.3",
+    "explanation": "The P&P states that Medi-Cal primary Members may access Hospice Care within twenty-four (24) hours of Notification and that prior authorization is not required for certain levels of care, which addresses timely access and avoiding delays. However, it does not explicitly clarify or detail the process for timely access specifically while processing requests from out-of-network hospice providers or during a transfer to an in-network hospice provider.",
     "citationVerified": true,
     "candidates": [
       {
@@ -3178,11 +3178,11 @@
     "number": 10,
     "question": "Does the P&P state that requirements for the initiation of outpatient hospice services include a certification by the attending physician and/or the hospice medical director that a Member has a terminal illness with a life expectancy of six months or less, and the Member\u2019s election of hospice services in lieu of curative care for the terminal illness?",
     "reference": "APL 25-008, page 2",
-    "verdict": "partial",
+    "verdict": "supports",
     "matchedChunkId": "GG.1503-II.B.2",
     "matchedDoc": "GG.1503",
     "matchedSection": "II.B.2",
-    "explanation": "Chunk GG.1503-II.B.2 explicitly states the requirement for physician certification of a terminal illness with a life expectancy of six months or less. However, it does not explicitly cover the member's election of hospice services in lieu of curative care, which is addressed in other related policy sections (e.g., GG.1503-II.B.3 and GG.1503-II.B.4).",
+    "explanation": "The P&P explicitly states the requirements. Chunk GG.1503-II.B.2 specifies that a hospice physician (and attending physician, if any) must certify the member's terminal illness with a life expectancy of six months or less. Chunks GG.1503-II.B.3 and GG.1503-II.B.4 further state that the member or authorized representative must understand and accept palliative care instead of curative care and sign a statement choosing hospice care instead of other treatments for the terminal illness.",
     "citationVerified": true,
     "candidates": [
       {
@@ -4226,10 +4226,10 @@
     "question": "Does the P&P state DHCS and MCPs may conduct medical and site reviews, such as prepayment review, and/or request additional information as part of its claims processing and Utilization Management functions regarding a Member\u2019s certification and election, including supporting documentation?",
     "reference": "APL 25-008, page 3",
     "verdict": "partial",
-    "matchedChunkId": "GG.1101-II.G.1",
-    "matchedDoc": "GG.1101",
-    "matchedSection": "II.G.1",
-    "explanation": "The P&P excerpt states the process for \"CCS program eligibility determination\" which includes \"Obtaining any additional information (e.g., medical reports)\" and \"reviewing and determining MTP eligibility.\" This partially addresses the obligation by covering requesting additional information and conducting medical reviews related to a member's certification/election, including supporting documentation. However, it is specific to the CCS program and does not explicitly mention site reviews, prepayment reviews, claims processing functions, or general Utilization Management functions.",
+    "matchedChunkId": "GG.1110-II.H",
+    "matchedDoc": "GG.1110",
+    "matchedSection": "II.H",
+    "explanation": "The P&P partially addresses the obligation. Chunk [GG.1110-II.H] states that PCPs shall permit \"review of services provided to Members by the Health Network, CalOptima Health, DHCS,\" covering medical reviews by both entities. Chunk [MA.1001-II.2#6] defines \"Practitioner Site Review,\" indicating site reviews are conducted, and chunk [GG.1600-III.F] states DHCS may request \"additional documentation.\" However, the P&P does not explicitly mention \"prepayment review\" or fully connect these activities to both \"claims processing and Utilization Management functions\" regarding a Member\u2019s \"election.\"",
     "citationVerified": true,
     "candidates": [
       {
@@ -4602,11 +4602,11 @@
     "number": 14,
     "question": "Does the P&P state that a hospice Provider must obtain written certification of terminal illness for each hospice benefit period? For the initial 90-day benefit period, the hospice Provider must obtain written certification statements from the medical director of the hospice, the physician designee (as defined in 42 CFR 418.3), or the physician member of the hospice interdisciplinary group; as well as the Member's attending physician (generally the Member\u2019s Primary Care Physician and/or referring physician), if the Member has an attending physician. For subsequent benefit periods, the certification must be done by the medical director of the hospice, the physician designee, or the physician member of the hospice interdisciplinary group.",
     "reference": "APL 25-008, pages 3-4",
-    "verdict": "partial",
+    "verdict": "supports",
     "matchedChunkId": "GG.1503-III.A.1",
     "matchedDoc": "GG.1503",
     "matchedSection": "III.A.1",
-    "explanation": "The P&P states that the certification of Terminal Illness must comply with Title 42 Code of Federal Regulations (CFR), Section 418.22. While this CFR section contains all the specific requirements of the obligation, the P&P itself does not explicitly spell out these details, requiring an external lookup for full verification.",
+    "explanation": "The P&P explicitly states that 'The physician has executed a certification of Terminal Illness that complies with Title 42 Code of Federal Regulations (CFR), Section 418.22.' This CFR section directly outlines all the requirements of the obligation, including written certification for each benefit period and the specific roles of physicians for initial and subsequent periods.",
     "citationVerified": true,
     "candidates": [
       {
@@ -5320,11 +5320,11 @@
     "number": 16,
     "question": "Does the P&P state MCPs must not deny hospice care to Members certified as terminally ill?",
     "reference": "APL 25-008, page 4",
-    "verdict": "supports",
+    "verdict": "partial",
     "matchedChunkId": "GG.1503-II.F.3",
     "matchedDoc": "GG.1503",
     "matchedSection": "II.F.3",
-    "explanation": "The P&P states that 'CalOptima Health shall not require prior authorization for Hospice Care services under Routine Home Care, Continuous Home Care, and Respite Care levels of Hospice Care,' directly preventing denial of these common hospice services based on prior authorization. It also notes that 'Medi-Cal primary Members may access Hospice Care within twenty-four (24) hours of Notification of Hospice request,' indicating access is granted.",
+    "explanation": "The P&P states that CalOptima Health 'shall not require prior authorization for Hospice Care services under Routine Home Care, Continuous Home Care, and Respite Care levels of Hospice Care,' implying these specific services will not be denied for lack of prior authorization. However, it also indicates that General Inpatient Care requires authorization and may be reduced if documentation is inadequate (GG.1503-II.F.4), suggesting that some forms of hospice care can be denied or modified, thus not fully supporting a blanket 'must not deny' obligation.",
     "citationVerified": true,
     "candidates": [
       {
@@ -5677,7 +5677,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "None of the provided candidates explicitly state that CMS guidance for determining terminal status is not wholly restrictive or inclusive, or that such guidelines are merely a tool that does not replace a physician's professional judgment. The candidates either list specific eligibility criteria or state that a physician certifies terminal illness, but do not address the flexibility or non-exclusive nature of guidelines.",
+    "explanation": "None of the provided P&P excerpts state that CMS guidance for determining terminal status is not wholly restrictive or inclusive, that it serves as a tool and not an exclusive determinant, or that it does not replace a physician's professional judgment. The candidates either define terminal illness certification or list specific eligibility criteria without discussing the nature or flexibility of guidelines.",
     "citationVerified": true,
     "candidates": [
       {
@@ -7095,7 +7095,7 @@
     "matchedChunkId": "GG.1503-II.F.4",
     "matchedDoc": "GG.1503",
     "matchedSection": "II.F.4",
-    "explanation": "The P&P states that if a hospice provider does not provide adequate clinical documentation to substantiate the need for General Inpatient Care, the Medical Director may reduce the Level of Care, implying a denial of the higher level of service and placing the impact on the provider. However, it does not explicitly state that services may be denied if the Member is not terminally ill, which is a key part of the obligation.",
+    "explanation": "The P&P states that if a hospice provider does not provide adequate clinical documentation to substantiate the need for General Inpatient Care, the Medical Director may reduce the Level of Care, implying a denial of payment for the higher level and placing liability on the provider. However, this only addresses medical necessity for a specific level of care and does not explicitly cover denial of hospice services if the Member is not terminally ill.",
     "citationVerified": true,
     "candidates": [
       {
@@ -7801,7 +7801,7 @@
     "matchedChunkId": "GG.1503-III.A.2",
     "matchedDoc": "GG.1503",
     "matchedSection": "III.A.2",
-    "explanation": "The P&P excerpt lists four required elements for the 'Notice of Election or Revocation Statement', which is relevant to the obligation. However, the obligation specifically asks for 'the five listed elements' on the 'appropriate DHCS hospice election form', indicating incomplete coverage and a lack of explicit mention of the DHCS form.",
+    "explanation": "The P&P excerpt lists four required elements for the 'Notice of Election or Revocation Statement', but the obligation specifically asks for five listed elements on the 'DHCS hospice election form'. While relevant, it is incomplete and does not explicitly mention the DHCS form.",
     "citationVerified": true,
     "candidates": [
       {
@@ -9580,11 +9580,11 @@
     "number": 28,
     "question": "Does the P&P state that at any time after revocation, or a discharge by the hospice for cause, a Member may execute a new election, if they meet hospice coverage eligibility requirements, and that if the Member is still eligible, and makes a hospice election, and is readmitted to the same or different hospice Provider, the 90/90/unlimited 60-day benefit periods of care restart?",
     "reference": "APL 25-008, page 7",
-    "verdict": "contradicts",
-    "matchedChunkId": "GG.1503-I.J.3",
-    "matchedDoc": "GG.1503",
-    "matchedSection": "I.J.3",
-    "explanation": "The obligation asks if the 90/90/unlimited 60-day benefit periods restart upon a new election and readmission. However, chunk GG.1503-I.J.3 states that for a member discharged and readmitted within sixty (60) calendar days, the 'Member\u2019s hospice days will continue to follow the patient and count toward the Member days,' which directly contradicts the requirement for the benefit periods to restart.",
+    "verdict": "gap",
+    "matchedChunkId": null,
+    "matchedDoc": null,
+    "matchedSection": null,
+    "explanation": "The P&P does not explicitly state that a Member may execute a new election after revocation or discharge for cause, if they meet eligibility requirements. While [GG.1503-I.J.4] mentions a 'new election to Hospice' after discharge, it does not specify 'revocation' or 'discharge for cause' as triggers, nor does it explicitly state the full '90/90/unlimited 60-day benefit periods' restart, only a 'reset of the Member\u2019s sixty (60) calendar day window' under specific conditions.",
     "citationVerified": true,
     "candidates": [
       {
@@ -10275,10 +10275,10 @@
     "question": "Does the P&P state a Member or Authorized Representative may change the designation of a hospice Provider once in each benefit period from the original hospice Provider with which the election was made, and that this change of the designated hospice Provider is not a revocation of the hospice benefit?",
     "reference": "APL 25-008, page 8",
     "verdict": "partial",
-    "matchedChunkId": "GG.1503-II.D",
+    "matchedChunkId": "GG.1503-II.H",
     "matchedDoc": "GG.1503",
-    "matchedSection": "II.D",
-    "explanation": "The P&P states that 'A change from one designated Hospice Provider to another is not considered a revocation of the hospice election,' directly addressing the second part of the obligation. However, it only indirectly suggests a member may change providers through 'modify Hospice Care' and does not explicitly state this can be done 'once in each benefit period' from the original provider.",
+    "matchedSection": "II.H",
+    "explanation": "The P&P explicitly states that a change from one designated Hospice Provider to another is not considered a revocation of the hospice election (GG.1503-II.D). However, the P&P only explicitly states that a 'change in designated hospice' may be done 'only once per election period' in the specific context of a member moving their legal residence (GG.1503-II.H), which is a narrower scope than the general right implied by the obligation.",
     "citationVerified": true,
     "candidates": [
       {
@@ -10625,7 +10625,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "None of the provided candidates explicitly list 'the four special considerations in hospice election' as required by the obligation. The candidates discuss general eligibility for palliative care, hospice eligibility criteria, or aspects of the hospice election process, but not a specific enumerated list of four special considerations.",
+    "explanation": "The obligation refers to \"the four listed special considerations in hospice election,\" but these specific considerations are not provided in the prompt. Without knowing what these four considerations are, it is impossible to determine if the P&P documents address them.",
     "citationVerified": true,
     "candidates": [
       {
@@ -10908,7 +10908,7 @@
         "chunkId": "GG.1550-III.D.2",
         "doc": "GG.1550",
         "section": "III.D.2",
-        "score": 0.6689
+        "score": 0.6688
       },
       {
         "chunkId": "GG.1550-III.D.4",
@@ -12446,11 +12446,11 @@
     "number": 36,
     "question": "Does the P&P state that Under section 2302 of the Patient Protection and Affordable Care Act, effective March 23, 2010, Medicaid children who have elected to receive hospice services, or for whom hospice services have been elected, may continue to receive services to treat their terminal illness?",
     "reference": "APL 25-008, pages 10-11",
-    "verdict": "partial",
+    "verdict": "supports",
     "matchedChunkId": "GG.1503-II.C.5",
     "matchedDoc": "GG.1503",
     "matchedSection": "II.C.5",
-    "explanation": "The chunk states that members younger than twenty-one may concurrently receive hospice services and curative treatment, directly addressing the core requirement for Medicaid children. However, it does not explicitly state that this policy is 'Under section 2302 of the Patient Protection and Affordable Care Act, effective March 23, 2010', which is a specific part of the obligation.",
+    "explanation": "The P&P explicitly states that 'A Member younger than twenty-one (21) years of age... may elect to concurrently receive hospice services and palliative care in addition to curative treatment of the hospice-related diagnosis'. This directly addresses the core requirement for Medicaid children to receive concurrent care for their terminal illness. While this specific chunk does not explicitly mention Section 2302 of the ACA, another chunk within the same policy (GG.1503-I.N#2) references 'The Implementation of Section 2302 of The Affordable Care Act, Entitled \"Concurrent Care For Children\"', indicating the policy's basis.",
     "citationVerified": true,
     "candidates": [
       {
@@ -13401,7 +13401,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "The P&P candidates do not explicitly state that MCPs may pay more, but not less than, the Medicare rate for hospice services, nor do they mention that Medicaid hospice payment rates are printed in the Federal Register. Furthermore, no candidate includes the seven listed revenue codes and their corresponding levels of care, with revenue codes being entirely absent from the provided text.",
+    "explanation": "No candidate explicitly states that the MCP may pay more, but not less than, the Medicare rate for hospice services, nor that Medicaid hospice payment rates are printed in the Federal Register. Furthermore, no candidate includes the seven listed revenue codes and their corresponding level of care; while some candidates mention levels of care, they do not provide revenue codes.",
     "citationVerified": true,
     "candidates": [
       {
@@ -14095,7 +14095,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "None of the provided P&P excerpts explicitly state the specific payment rules for inpatient and home care rates based on admission, subsequent inpatient days, or discharge day, nor do they address the exception for member death on the discharge day.",
+    "explanation": "None of the provided candidates explicitly state the specific payment rules for inpatient and home care rates based on admission, subsequent inpatient days, and discharge days, including the exceptions for the discharge day (home care rate unless death, then inpatient rate). While some candidates mention 'inpatient care', 'respite care', or 'routine home care rate', they do not detail the payment logic for these specific scenarios.",
     "citationVerified": true,
     "candidates": [
       {
@@ -15222,11 +15222,11 @@
     "number": 44,
     "question": "Does the P&P state a Member who is a resident of a SNF or ICF may elect hospice care, and that payment from the MCP will be provided to the hospice for hospice care services (at the appropriate level of care)?",
     "reference": "APL 25-008, page 13",
-    "verdict": "supports",
+    "verdict": "partial",
     "matchedChunkId": "GG.1503-III.C",
     "matchedDoc": "GG.1503",
     "matchedSection": "III.C",
-    "explanation": "The P&P excerpt explicitly states that 'For a Member residing in an LTC facility,' reimbursement will be provided via 'Standard hospice per diem' for various levels of hospice care, including in 'nursing facility A or B level' and 'Skilled nursing facility.' This directly addresses payment for hospice services at appropriate levels of care for SNF/ICF residents, and by outlining reimbursement for such services, it directly implies that members in these facilities may elect hospice care.",
+    "explanation": "The P&P excerpt [GG.1503-III.C] explicitly details reimbursement for hospice care at various levels in nursing facilities (LTC facilities), directly supporting the payment aspect of the obligation. However, while this implies that members in SNF/ICF may elect hospice care, the P&P does not explicitly state this election right for residents of these specific facilities; it is inferred from the reimbursement policy.",
     "citationVerified": true,
     "candidates": [
       {
@@ -15976,11 +15976,11 @@
     "number": 46,
     "question": "Does the P&P state LTC Members who elect the Medi-Cal hospice benefit are not disenrolled from the MCP, and that hospices will bill the MCPs using the six listed revenue (and facility type) codes?",
     "reference": "APL 25-008, page 13",
-    "verdict": "gap",
-    "matchedChunkId": null,
-    "matchedDoc": null,
-    "matchedSection": null,
-    "explanation": "The P&P excerpts do not explicitly state that LTC Members who elect the Medi-Cal hospice benefit are not disenrolled from the MCP. Furthermore, none of the candidates list the six specific revenue (and facility type) codes that hospices are required to use when billing MCPs, only mentioning 'per diem' rates for different levels of care.",
+    "verdict": "partial",
+    "matchedChunkId": "GG.1503-III.C",
+    "matchedDoc": "GG.1503",
+    "matchedSection": "III.C",
+    "explanation": "The P&P excerpt implies that LTC Members who elect Medi-Cal hospice are not disenrolled from the MCP by detailing reimbursement for hospice services for members residing in LTC facilities. However, it does not explicitly state this, nor does it list the specific six revenue (and facility type) codes that hospices will use for billing the MCPs.",
     "citationVerified": true,
     "candidates": [
       {
@@ -16357,7 +16357,7 @@
     "matchedChunkId": "MA.6101-III.H.9",
     "matchedDoc": "MA.6101",
     "matchedSection": "III.H.9",
-    "explanation": "The obligation requires MCPs to cover cost sharing for contracted services for dual eligibles receiving hospice. However, candidate MA.6101-III.H.9 states, \"The Member shall be required to pay their applicable cost-sharing,\" which directly contradicts the requirement for the MCP to cover it.",
+    "explanation": "The P&P states, \"The Member shall be required to pay their applicable cost-sharing\" (MA.6101-III.H.9), which directly contradicts the obligation that MCPs must cover cost sharing for contracted services. While MA.6113-II.A.1 partially addresses Medicare as primary payor for certain hospice drugs, the explicit contradiction regarding cost-sharing takes precedence.",
     "citationVerified": true,
     "candidates": [
       {
@@ -17099,7 +17099,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "The P&P does not explicitly state that authorization is not required for hospice room and board billing, nor does it state that Medicare EOB/RA/denial letters are not required for room and board claims. Candidate GG.1503-II.F.1 refers to 'professional services for hospice,' which does not encompass room and board.",
+    "explanation": "The P&P documents do not explicitly state that authorization cannot be required for hospice room and board billing when a patient receives hospice services under Medicare and Medi-Cal covers room and board. Additionally, there is no explicit statement prohibiting the requirement of Medicare EOBs, Remittance Advices, or denial letters to accompany room and board claims.",
     "citationVerified": true,
     "candidates": [
       {
@@ -17476,7 +17476,7 @@
     "matchedChunkId": "GG.1503-III.F.9",
     "matchedDoc": "GG.1503",
     "matchedSection": "III.F.9",
-    "explanation": "The P&P states that the Hospice Provider shall submit the Hospice Election Form to CalOptima Health\u2019s LTSS Department for CalOptima Health Members in an LTC facility. However, it does not explicitly require submission to DHCS, nor does it specifically address dual eligibles electing the Medicare hospice benefit outside of an LTC facility.",
+    "explanation": "The P&P partially addresses the obligation by stating that the Hospice Provider shall submit a 'Hospice Election Form' to CalOptima Health (the MCP) for members in an LTC facility. However, it does not explicitly mention submitting the form to DHCS, nor does it specifically target dual eligibles or those electing the Medicare hospice benefit, and it is limited to members in an LTC facility.",
     "citationVerified": true,
     "candidates": [
       {
@@ -17835,7 +17835,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "The P&P candidates do not explicitly state that the MCP pays the room and board payment to the hospice provider according to a specific rate, nor do they mention the hospice's responsibility for paying the nursing home, the determination of eligibility for room and board payment by the nursing home and MCP, or the nursing home's responsibility to collect the LTC share of cost.",
+    "explanation": "The P&P excerpts discuss room and board coverage for hospice members in LTC facilities and mention reimbursement rates, but they do not explicitly state that the MCP pays the hospice provider, who then pays the nursing home. Crucially, the P&P does not address who determines eligibility for the room and board payment or who is responsible for collecting the LTC share of cost.",
     "citationVerified": true,
     "candidates": [
       {
@@ -18571,7 +18571,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "The P&P does not mention Revenue Code 0657 or the requirement for MCPs to reimburse it. While 'Special Physician Services' are mentioned for pain and symptom management with a one-visit-per-day limit, the P&P states these are for when the hospice-employed physician is unable to meet needs, which contradicts the obligation's requirement for services provided by a hospice-employed physician.",
+    "explanation": "The P&P does not mention Revenue Code 0657 at all. While 'Special Physician Services' in GG.1503-I.K.1 and GG.1503-I.K.2 address pain and symptom management with a one-visit-per-day limit, GG.1503-I.K.1 explicitly states these services 'shall not be provided by the Member\u2019s Hospice attending physician,' which contradicts the obligation's requirement for services provided by a hospice-employed physician.",
     "citationVerified": true,
     "candidates": [
       {
@@ -18924,7 +18924,7 @@
     "matchedChunkId": "GG.1503-I.K.1",
     "matchedDoc": "GG.1503",
     "matchedSection": "I.K.1",
-    "explanation": "The candidate explicitly states that 'Special Physician Services' for pain and symptom management 'shall not be provided by the Member\u2019s Hospice attending physician' and requires 'Immediate need' and that 'The Hospice attending physician does not have the required special skills'. This directly addresses the core conditions of the obligation, but it is limited to the context of Hospice care, making it a partial match for the broader 'consulting/special physician services Revenue Code 0657'.",
+    "explanation": "The candidate addresses 'Special Physician Services for pain and symptom management' and states conditions for when it 'shall not be provided by the Member\u2019s Hospice attending physician' due to 'Immediate need' or the 'Hospice attending physician does not have the required special skills'. This aligns with the obligation's conditions for symptom management when the attending physician cannot remedy it due to specific circumstances. However, the candidate explicitly limits this to 'Hospice Provider' services, which is a narrower scope than the general 'consulting/special physician services Revenue Code 0657' mentioned in the obligation, making it a partial match.",
     "citationVerified": true,
     "candidates": [
       {
@@ -19235,7 +19235,7 @@
     "matchedChunkId": "GG.1503-II.F.3",
     "matchedDoc": "GG.1503",
     "matchedSection": "II.F.3",
-    "explanation": "The P&P states CalOptima Health's policy of not requiring prior authorization for most hospice services, with an exception for inpatient care (GG.1503-II.F.3, GG.1503-II.F.4), which aligns with the obligation. However, it does not explicitly state that this is due to the Medi-Cal Fee-For-Service program's rules or that MCPs adhere to the same Utilization Review standards as required by federal law.",
+    "explanation": "The P&P states that CalOptima Health 'shall not require prior authorization for Hospice Care services' for routine, continuous, and respite care, and explicitly requires authorization for 'Inpatient Care'. This aligns with the core requirement regarding prior authorization for hospice services and the inpatient exception. However, it does not explicitly state that the Medi-Cal Fee-For-Service program itself does not permit PA, nor does it explicitly state that MCPs adhere to the same Utilization Review standards as required by federal law, requiring some inference.",
     "citationVerified": true,
     "candidates": [
       {
@@ -19977,7 +19977,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "The P&P candidates do not explicitly state that general inpatient care may be required for pain or symptom management that cannot be provided in other settings per Medicare policy. There is also no mention of skilled nursing care being needed due to a breakdown in home support, nor a clarification that general inpatient care under the hospice benefit is not equivalent to a hospital level of care under the Medicare hospital benefit.",
+    "explanation": "The P&P does not explicitly state that general inpatient care under the hospice benefit is not equivalent to a hospital level of care under the Medicare hospital benefit, nor does it specify that skilled nursing care may be needed due to home support breakdown. While [AA.1000-II.8#5] mentions inpatient care for pain/symptom management, it lacks the condition that it cannot be provided in other settings and the explicit reference to Medicare policy.",
     "citationVerified": true,
     "candidates": [
       {
@@ -20802,7 +20802,7 @@
     "matchedChunkId": null,
     "matchedDoc": null,
     "matchedSection": null,
-    "explanation": "None of the provided P&P excerpts explicitly state that the plan applies compliance review protocols for claim processing and Utilization Management systems upon receipt of a hospice election form or claim to identify members receiving hospice. Furthermore, no excerpt details informing the Member\u2019s PCP of a hospice election or adding system indicators to flag members receiving hospice services.",
+    "explanation": "No candidate explicitly addresses the requirement for compliance review protocols upon receipt of a hospice election form or claim to identify members, inform PCPs of hospice election, or add system indicators for hospice services. While some candidates mention identifying special populations or PCP notification, none are specific enough to hospice or the detailed operational requirements of the obligation.",
     "citationVerified": true,
     "candidates": [
       {
@@ -22130,7 +22130,7 @@
     "matchedChunkId": "GG.1110-II.D.13",
     "matchedDoc": "GG.1110",
     "matchedSection": "II.D.13",
-    "explanation": "The P&P states that Member's Medical Records must be made available for review upon request by DHCS, which implies inspection at any time for service delivery compliance. However, it does not explicitly cover all 'MCP records, documents, and electronic systems' or 'claim payments' as broadly as the obligation.",
+    "explanation": "The chunk states that 'Member\u2019s Medical Record' must be 'available for review upon request by... the California Department of Health Care Services (DHCS)', which covers DHCS's ability to inspect records related to service delivery at any time. However, it does not explicitly mention 'audit', 'electronic systems', or 'claim payments', indicating incomplete coverage of the obligation's full scope.",
     "citationVerified": true,
     "candidates": [
       {

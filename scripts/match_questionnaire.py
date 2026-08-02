@@ -12,8 +12,9 @@ from lib.vectors import load_vectors, top_k, cosine
 from lib.match_helpers import judge_with_verification
 
 Q_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "questionnaire")
-PP_META_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "plan_policies", "chunks-meta.json")
-PP_QA_VECS_FILE = os.path.join(Q_DIR, "pp-embeddings.bin")
+PP_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "plan_policies")
+PP_META_FILE = os.path.join(PP_DIR, "chunks-meta.json")
+PP_QA_VECS_FILE = os.path.join(PP_DIR, "embeddings-qa.bin")  # RETRIEVAL_DOCUMENT-tagged, pairs with QUESTION_ANSWERING questions
 OUT_FILE = os.path.join(Q_DIR, "matches.json")
 
 DIM = 256
@@ -28,7 +29,7 @@ def load_pp_for_qa():
     with open(PP_QA_VECS_FILE, "rb") as f:
         raw = f.read()
     n = len(raw) // (DIM * 4)
-    assert n == len(pp_meta), f"pp-embeddings.bin has {n} vectors but chunks-meta.json has {len(pp_meta)} entries"
+    assert n == len(pp_meta), f"embeddings-qa.bin has {n} vectors but chunks-meta.json has {len(pp_meta)} entries"
     import struct
     pp_vecs = [struct.unpack_from(f"<{DIM}f", raw, i * DIM * 4) for i in range(n)]
     return pp_meta, pp_vecs
