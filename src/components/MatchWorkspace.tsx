@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { MatchItem } from "@/lib/data";
 import MatchRow from "./MatchRow";
@@ -39,17 +39,19 @@ export default function MatchWorkspace({
   const [selectedClaim, setSelectedClaim] = useState<SelectedClaim | null>(null);
   const [loadingChunkId, setLoadingChunkId] = useState<string | null>(null);
   const [chunkCache, setChunkCache] = useState<Record<string, SelectedClaim>>({});
-  const [resolvedIds, setResolvedIds] = useState<Set<string>>(new Set());
-
-  // Load resolved state from localStorage on mount, per-screen.
-  useEffect(() => {
+  // Lazy initializer: reads localStorage synchronously before the first
+  // render (rather than via a post-mount effect + setState, which triggers
+  // an extra cascading render). Runs once per mount; fine since storageKey
+  // is effectively constant per page instance.
+  const [resolvedIds, setResolvedIds] = useState<Set<string>>(() => {
+    if (typeof window === "undefined") return new Set();
     try {
       const raw = window.localStorage.getItem(resolvedStorageKey(storageKey));
-      if (raw) setResolvedIds(new Set(JSON.parse(raw)));
+      return raw ? new Set(JSON.parse(raw)) : new Set();
     } catch {
-      // localStorage unavailable (private browsing, etc.) - just start empty
+      return new Set();
     }
-  }, [storageKey]);
+  });
 
   function toggleResolved(id: string) {
     setResolvedIds((prev) => {
